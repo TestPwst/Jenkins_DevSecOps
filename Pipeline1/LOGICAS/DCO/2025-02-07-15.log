@@ -1,0 +1,11 @@
+2025-02-07 15:00:00,804 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 15:00:07,211 - root - INFO - Despliega el menú Documentos
+2025-02-07 15:00:07,767 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 15:00:09,207 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 15:00:22,257 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 15:00:25,707 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 15:00:27,964 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 15:00:30,902 - root - INFO -  Se encontro y abrio el menu 
+2025-02-07 15:00:33,109 - root - INFO -  Selecciona las ventas y las anula 
+2025-02-07 15:00:37,417 - root - INFO -  Se dio clic en aceptar 
+2025-02-07 15:00:44,537 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.

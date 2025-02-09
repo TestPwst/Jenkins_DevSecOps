@@ -5,7 +5,11 @@ import unittest
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
 from requests.exceptions import RequestException, Timeout, ConnectionError
+import colorama
+from colorama import Fore, Style
 from cryptography.fernet import Fernet
+
+colorama.init()
 
 # Configuración de reportes
 directory = "reportes_vulnerabilidades_Critica"
@@ -48,24 +52,25 @@ def verificar_vulnerabilidades(url):
 # Generar reporte encriptado
 def generar_reporte(vulnerabilidades, url):
     if not vulnerabilidades:
-        return f"\nNo se detectaron vulnerabilidades."
+        return f"{Fore.LIGHTGREEN_EX}No se detectaron vulnerabilidades.{Style.RESET_ALL}"
 
     file_name = f"Ransomware_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.html"
     file_path = os.path.join(directory, file_name)
     key = Fernet.generate_key()
     cipher = Fernet(key)
 
-    with open(file_path, 'w') as file:
-        file.write("<html><head><title>Reporte de Vulnerabilidades Críticas</title></head><body>")
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write("<!DOCTYPE html>\n<html lang='es'>\n<head>\n<meta charset='UTF-8'>\n")
+        file.write("<title>Reporte de Vulnerabilidades Críticas</title></head><body>")
         file.write("=" * 150 + "\n\n")
-        file.write("<h1 style='text-align:center;'>Reporte de Vulnerabilidades Críticas</h1>")
+        file.write("<h1 style='text-align:center;'>Reporte de Ransomware</h1>")
         file.write("=" * 150 + "\n\n")
         file.write(f"<p>URL Analizada: {url}</p>")
         file.write(f"<p>Fecha: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>")
         file.write("<h2>Vulnerabilidades Detectadas</h2><ul>")
-        # Escribir cada vulnerabilidad en formato HTML
-        for vulnerability in vulnerabilidades:
-            file.write(f"<li><pre>{vulnerability}</pre></li>")
+
+        for vuln in vulnerabilidades:
+            file.write(f"<li>{vuln}</li>")
         file.write("</ul></body></html>")
 
     with open(file_path, 'rb') as f:
@@ -87,5 +92,5 @@ class TestSeguridadWeb(unittest.TestCase):
         self.assertIsInstance(vulnerabilidades, list)
 
 
-if __name__ == "__main__":
+if __name__== "__main__":
     unittest.main()

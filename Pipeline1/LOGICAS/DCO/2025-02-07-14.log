@@ -1,0 +1,1168 @@
+2025-02-07 14:25:02,508 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:25:11,692 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:25:29,621 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:25:31,966 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:25:42,072 - root - INFO -  Ingresa el codigo del articulo FA01001
+2025-02-07 14:25:43,394 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada
+2025-02-07 14:25:51,090 - root - INFO -  Ingresa el codigo del articulo FA01005
+2025-02-07 14:25:52,409 - root - INFO -  Se presiona el boton 'Refrescar'
+2025-02-07 14:26:00,104 - root - INFO -  Ingresa el codigo del articulo FA01009
+2025-02-07 14:26:01,444 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-07 14:26:08,971 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2025-02-07 14:26:12,276 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:26:16,449 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:26:17,135 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:26:21,316 - root - INFO - El stock inicial de los articulos es:     Codigo   Saldo
+0  FA01001  574.02
+1  FA01005  650.04
+2  FA01009  255.16
+2025-02-07 14:26:27,790 - root - INFO - Se agregar al cliente 0010051428 para realizar la venta de contado por packing
+2025-02-07 14:26:32,044 - root - INFO -  Ingresa articulo 1
+2025-02-07 14:26:33,115 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:26:35,325 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:26:36,463 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:26:39,576 - root - INFO -  Ingresa articulo 2
+2025-02-07 14:26:42,850 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:26:43,969 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:26:47,108 - root - INFO -  Ingresa articulo 3
+2025-02-07 14:26:49,319 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:26:50,456 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:26:53,578 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:26:55,752 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:26:59,966 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:27:01,090 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:27:07,506 - root - INFO - El stock de los articulos despues de la venta de contado es:     Codigo   Saldo
+0  FA01001  573.02
+1  FA01005  649.04
+2  FA01009  254.16
+2025-02-07 14:27:07,790 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:27:08,375 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:27:10,323 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:27:23,423 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:27:25,823 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:27:28,020 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:27:30,157 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:27:36,353 - root - INFO - Se agregar al cliente 0010051428 para realizar la venta de contado por packing
+2025-02-07 14:27:40,554 - root - INFO -  Ingresa articulo 1
+2025-02-07 14:27:42,795 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:27:44,872 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:27:46,035 - root - INFO -  Ingresa articulo 2
+2025-02-07 14:27:49,226 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:27:50,335 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:27:53,472 - root - INFO -  Ingresa articulo 3
+2025-02-07 14:27:55,694 - root - INFO -  Ingresa la cantidad del articulo 1
+2025-02-07 14:27:56,818 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:27:59,948 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:28:02,069 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:28:06,363 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:28:07,461 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:28:13,656 - root - INFO - El stock final de los articulos es:     Codigo   Saldo
+0  FA01001  574.02
+1  FA01005  650.04
+2  FA01009  255.16
+2025-02-07 14:28:14,794 - root - INFO -  Se presiona el boton 'Cerrar'
+2025-02-07 14:28:17,114 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:28:17,705 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:28:19,621 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:28:32,257 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:28:35,712 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:28:37,872 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:28:39,958 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:28:42,710 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:28:44,951 - root - INFO - Abre reporte docarti
+2025-02-07 14:28:46,589 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:28:53,602 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:28:54,748 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:29:54,598 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:30:03,135 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:30:19,915 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:30:22,242 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:30:32,407 - root - INFO -  Ingresa el código del articulo FA01003
+2025-02-07 14:30:33,789 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion del articulo 1
+2025-02-07 14:30:41,787 - root - INFO -  Ingresa el codigo del articulo FA03007
+2025-02-07 14:30:43,099 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion del artículo 2
+2025-02-07 14:30:52,018 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion del articulo 3.
+2025-02-07 14:30:59,646 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2025-02-07 14:31:02,910 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:31:07,071 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:31:07,818 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:31:11,924 - root - INFO - El stock inicial de los articulos es:     Codigo     Saldo
+0  FA01003  49918.00
+1  FA03007   9861.00
+2  FA03022   9858.00
+2025-02-07 14:31:18,404 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por unidad
+2025-02-07 14:31:19,628 - root - INFO - Se ingresa la observación 1 al documento
+2025-02-07 14:31:20,843 - root - INFO - Se ingresa la observación 2 al documento
+2025-02-07 14:31:23,643 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:31:24,868 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA01003
+2025-02-07 14:31:27,077 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:31:31,547 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA03007
+2025-02-07 14:31:32,687 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:31:37,688 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA03022
+2025-02-07 14:31:38,864 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:31:40,029 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:31:42,254 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:31:44,289 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:31:45,339 - root - INFO - El total de la venta es correcto
+2025-02-07 14:31:46,463 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:31:47,590 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:31:53,917 - root - INFO - El stock de los articulos despues de la venta de contado es:     Codigo     Saldo
+0  FA01003  49917.00
+1  FA03007   9860.00
+2  FA03022   9857.00
+2025-02-07 14:31:54,217 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:31:54,805 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:31:56,278 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:32:09,266 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:32:11,654 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:32:13,844 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:32:15,967 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos.
+2025-02-07 14:32:22,188 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por packing
+2025-02-07 14:32:29,586 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA01003
+2025-02-07 14:32:31,833 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:32:36,330 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA03007
+2025-02-07 14:32:38,433 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:32:43,865 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FA03022
+2025-02-07 14:32:46,055 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:32:48,269 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:32:49,346 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:32:51,459 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:32:52,513 - root - INFO - El total de la venta es correcto
+2025-02-07 14:32:53,655 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:32:54,791 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:33:00,990 - root - INFO - El stock final de los articulos es:     Codigo     Saldo
+0  FA01003  49918.00
+1  FA03007   9861.00
+2  FA03022   9858.00
+2025-02-07 14:33:03,123 - root - INFO -  Se presiona el boton 'Cerrar'
+2025-02-07 14:33:05,441 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:33:06,037 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:33:07,975 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:33:20,847 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:33:24,288 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:33:26,485 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:33:28,670 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos
+2025-02-07 14:33:31,303 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:33:33,574 - root - INFO - Abre reporte docarti
+2025-02-07 14:33:35,185 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:33:41,845 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:33:42,953 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:34:23,067 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:34:32,457 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:34:49,806 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:34:51,861 - root - ERROR - El ingreso a la tabla artículos no fue correcto  Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587E0955]
+	(No symbol) [0x00007FF7587E375C]
+	(No symbol) [0x00007FF7587E382F]
+	(No symbol) [0x00007FF758836484]
+	(No symbol) [0x00007FF7588356E0]
+	(No symbol) [0x00007FF75888AA2E]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:36,190 - root - ERROR - La validación de la configuración del articulo FAP02629 no es correcta Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:36,511 - root - ERROR -  El ingreso para a la pantalla del reporte de stock no fue correcto, favor de validar el error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:41,514 - root - ERROR - No se obtuvo datos, validar el error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:43,520 - root - ERROR - Log_incorrect Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:45,523 - root - ERROR - No se pudo ingresar el articulo, validar Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:45,533 - root - INFO - No se logró dar click a la información a detalle de la venta de contado. Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:45,543 - root - ERROR - No se pudo actualizar el reporte DZ Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:45,552 - root - ERROR - Log_incorrect Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:47,558 - root - ERROR - No se pudo buscar el documento emitido, verificar error Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:47,570 - root - ERROR - Log_incorrect Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:49,577 - root - ERROR - No se pudo ingresar el articulo, validar error Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:49,600 - root - INFO - No se logró dar click a la información a detalle de la venta de contado. Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:49,618 - root - ERROR - No se pudo actualizar el reporte DZ Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:49,678 - root - ERROR - Log_incorrect Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:51,684 - root - ERROR - No se pudo abrir documentos emitidos Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:35:51,715 - root - ERROR - El ingreso explorador de reportes no fue correcto.  Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF75881F12F]
+	(No symbol) [0x00007FF7588570E2]
+	(No symbol) [0x00007FF758851A69]
+	(No symbol) [0x00007FF758850B19]
+	(No symbol) [0x00007FF7587A5595]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF7587A41AE]
+	GetHandleVerifier [0x00007FF758DAC878+4065832]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:36:14,169 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:36:22,992 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:36:39,303 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:36:41,612 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:36:56,920 - root - INFO - Se valida que el articulo este configurado como Factura Componente
+2025-02-07 14:37:03,392 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:37:07,549 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:37:07,860 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:37:11,950 - root - INFO - El stock inicial de los articulos es:     Codigo   Saldo
+0  FA01001  574.02
+1  FA01002  997.03
+2025-02-07 14:37:20,479 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por combo componente
+2025-02-07 14:37:25,750 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:37:26,896 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02629
+2025-02-07 14:37:29,142 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:37:30,445 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:37:32,563 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:37:34,636 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:37:35,660 - root - INFO - El total de la venta es correcto
+2025-02-07 14:37:36,750 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:37:37,908 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:37:44,116 - root - INFO - El stock de los articulos despues de la venta es:     Codigo   Saldo
+0  FA01001  572.02
+1  FA01002  997.02
+2025-02-07 14:37:45,446 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:37:46,055 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:37:47,465 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:38:00,241 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:38:04,704 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:38:06,822 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:38:13,985 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por combo componente
+2025-02-07 14:38:21,525 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02629
+2025-02-07 14:38:23,740 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:38:25,840 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:38:26,946 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:38:29,009 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:38:30,057 - root - INFO - El total de la venta es correcto
+2025-02-07 14:38:31,156 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:38:32,334 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:38:38,486 - root - INFO - El stock final de los articulos es:     Codigo   Saldo
+0  FA01001  574.02
+1  FA01002  997.03
+2025-02-07 14:38:40,579 - root - INFO -  Se presiona el boton 'Cerrar'
+2025-02-07 14:38:42,884 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:38:43,493 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:38:44,986 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:38:57,890 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:39:03,488 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:39:05,621 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:39:08,253 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:39:10,621 - root - INFO - Abre reporte docarti
+2025-02-07 14:39:12,261 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:39:18,651 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:39:19,780 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:39:25,896 - root - INFO - <class 'Pipeline1.VariablesGral.Log'>
+2025-02-07 14:40:22,217 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:40:31,364 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:40:48,606 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:40:50,918 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:41:01,023 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-07 14:41:02,389 - root - INFO -  Se presiona el boton 'refrescar', para mostrar la informacion filtrada.
+2025-02-07 14:41:07,153 - root - INFO - Se valida que el articulo este configurado como Factura Combo
+2025-02-07 14:41:14,700 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:41:18,873 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:41:19,210 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:41:23,276 - root - INFO - No se obtuvo datos.: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class, 'report-data-table report-data-table')]"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:41:32,807 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por combo por combo
+2025-02-07 14:41:38,043 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:41:39,198 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02630
+2025-02-07 14:41:41,394 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:41:43,529 - root - ERROR - No se dio click al botón Cancelar: Message: element click intercepted: Element <button tabindex="302" id="_F508D4E941274A1FBD916E3A09F73F97__44732135_63_element" name="_F508D4E941274A1FBD916E3A09F73F97__44732135_63_element">...</button> is not clickable at point (770, 458). Other element would receive the click: <div id="pglocker" class="lockerui" title="trabajando..." style="display: block;">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:41:44,650 - root - INFO - No se logró dar click a la información a detalle de la venta de contado.: Message: element click intercepted: Element <div tabindex="199" id="_AEADFDF6CD1E4DEB8213055488839759__details_element" name="_AEADFDF6CD1E4DEB8213055488839759__details_element">...</div> is not clickable at point (174, 83). Other element would receive the click: <div class="ui-modal-container">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:41:46,796 - root - ERROR - No se pudo actualizar el reporte DZ: Message: element click intercepted: Element <div tabindex="144" id="_24609CAEB53742229497277680339231__000_reportView2_element" name="_24609CAEB53742229497277680339231__000_reportView2_element">...</div> is not clickable at point (39, 88). Other element would receive the click: <div class="ui-modal-container">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:41:47,176 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:41:47,223 - root - ERROR - Log_incorrect Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587E0955]
+	(No symbol) [0x00007FF7587E375C]
+	(No symbol) [0x00007FF7587E382F]
+	(No symbol) [0x00007FF758836484]
+	(No symbol) [0x00007FF7588356E0]
+	(No symbol) [0x00007FF75888AA2E]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:42:49,491 - root - ERROR - Error al abiri documento emitido, favor de validar: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:42:54,862 - root - ERROR - Log_incorrect Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587E0955]
+	(No symbol) [0x00007FF7587E375C]
+	(No symbol) [0x00007FF7587E382F]
+	(No symbol) [0x00007FF758836484]
+	(No symbol) [0x00007FF7588356E0]
+	(No symbol) [0x00007FF75888AA2E]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:42:58,999 - root - INFO - Se agregar al cliente: 125H000057 para realizar la devolución de contado del combo por combo
+2025-02-07 14:43:02,903 - root - ERROR - No se pudo ingresar el articulo, validar error: Message: element click intercepted: Element <div tabindex="249" id="_AEADFDF6CD1E4DEB8213055488839759_items|add_element" name="_AEADFDF6CD1E4DEB8213055488839759_items|add_element">...</div> is not clickable at point (39, 351). Other element would receive the click: <div class="ui-modal-container">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:43:06,783 - root - INFO - No se logró dar click a la información a detalle de la venta de contado.: Message: element click intercepted: Element <div tabindex="199" id="_AEADFDF6CD1E4DEB8213055488839759__details_element" name="_AEADFDF6CD1E4DEB8213055488839759__details_element">...</div> is not clickable at point (174, 83). Other element would receive the click: <div class="ui-modal-container">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:43:09,069 - root - ERROR - No se pudo actualizar el reporte DZ, validar error: Message: element click intercepted: Element <div tabindex="144" id="_24609CAEB53742229497277680339231__000_reportView2_element" name="_24609CAEB53742229497277680339231__000_reportView2_element">...</div> is not clickable at point (39, 88). Other element would receive the click: <div class="ui-modal-container">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:43:14,438 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:43:14,496 - root - ERROR - Log_incorrect Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587E0955]
+	(No symbol) [0x00007FF7587E375C]
+	(No symbol) [0x00007FF7587E382F]
+	(No symbol) [0x00007FF758836484]
+	(No symbol) [0x00007FF7588356E0]
+	(No symbol) [0x00007FF75888AA2E]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:44:34,903 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:44:43,638 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:45:00,815 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:45:03,134 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:45:13,193 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-07 14:45:14,506 - root - INFO -  Se presiona el boton 'refrescar', para mostrar la informacion filtrada.
+2025-02-07 14:45:19,259 - root - INFO - Se valida que el articulo este configurado como Factura Combo
+2025-02-07 14:45:26,709 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:45:30,874 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:45:31,180 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:45:35,242 - root - INFO - No se obtuvo datos.: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class, 'report-data-table report-data-table')]"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:45:45,825 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por combo por combo
+2025-02-07 14:45:50,970 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:45:52,131 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02630
+2025-02-07 14:45:54,237 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:45:55,357 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:45:57,499 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:45:59,557 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:46:00,608 - root - INFO - El total de la venta es correcto
+2025-02-07 14:46:01,720 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:46:02,873 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 14:46:09,325 - root - INFO - El stock de los articulos despues de la venta es:      Codigo   Saldo
+0  FAP02630  959.00
+2025-02-07 14:46:10,631 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:46:11,234 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:46:12,616 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:46:27,266 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:46:31,878 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:46:33,998 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos 423.
+2025-02-07 14:46:41,133 - root - INFO - Se agregar al cliente: 125H000057 para realizar la devolución de contado del combo por combo
+2025-02-07 14:46:48,681 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02630
+2025-02-07 14:46:50,843 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:46:52,977 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:46:54,127 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:46:56,159 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:46:57,191 - root - INFO - El total de la venta es correcto
+2025-02-07 14:46:58,278 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:46:59,392 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 14:47:05,555 - root - INFO - El stock final de los articulos es:      Codigo   Saldo
+0  FAP02630  960.00
+2025-02-07 14:47:07,704 - root - INFO -  Se presiona el boton 'Cerrar'
+2025-02-07 14:47:10,037 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:47:10,702 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:47:12,152 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:47:24,986 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:47:30,561 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:47:32,676 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:47:35,342 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:47:37,577 - root - INFO - Abre reporte docarti
+2025-02-07 14:47:39,198 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:47:45,748 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:47:46,872 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:47:52,976 - root - INFO - <class 'Pipeline1.VariablesGral.Log'>
+2025-02-07 14:48:40,809 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:48:50,773 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:49:06,238 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:49:08,524 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:49:18,720 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-07 14:49:20,086 - root - INFO -  Se presiona el boton 'refrescar', para mostrar la informacion filtrada.
+2025-02-07 14:49:24,814 - root - INFO - Se valida que el articulo este configurado como Factura Combo
+2025-02-07 14:49:32,366 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:49:36,511 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:49:36,879 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:49:40,943 - root - INFO - No se obtuvo datos.: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class, 'report-data-table report-data-table')]"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:49:50,393 - root - INFO - Se agregar al cliente: 125H000057 para realizar la venta de contado por combo por combo
+2025-02-07 14:49:55,741 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:49:56,957 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02630
+2025-02-07 14:49:59,199 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:50:00,332 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:50:02,487 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:50:04,540 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:50:05,605 - root - INFO - El total de la venta es correcto
+2025-02-07 14:50:06,716 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:50:07,825 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 14:50:14,068 - root - INFO - El stock de los articulos despues de la venta es:      Codigo   Saldo
+0  FAP02630  959.00
+2025-02-07 14:50:15,366 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:50:15,969 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:50:17,402 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:50:30,273 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:50:34,837 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:50:36,947 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos 423.
+2025-02-07 14:50:44,051 - root - INFO - Se agregar al cliente: 125H000057 para realizar la devolución de contado del combo por combo
+2025-02-07 14:50:51,655 - root - INFO -  Ingresa la cantidad de: 1 del articulo: FAP02630
+2025-02-07 14:50:53,840 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:50:56,027 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:50:57,117 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:50:59,185 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:51:00,211 - root - INFO - El total de la venta es correcto
+2025-02-07 14:51:01,390 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:51:02,511 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 14:51:08,731 - root - INFO - El stock final de los articulos es:      Codigo   Saldo
+0  FAP02630  960.00
+2025-02-07 14:51:10,859 - root - INFO -  Se presiona el boton 'Cerrar'
+2025-02-07 14:51:13,176 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:51:13,787 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:51:15,140 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:51:28,039 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:51:33,618 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:51:35,735 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:51:38,387 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:51:41,188 - root - INFO - Abre reporte docarti
+2025-02-07 14:51:42,800 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:51:49,536 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:51:50,630 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:51:56,737 - root - INFO - <class 'Pipeline1.VariablesGral.Log'>
+2025-02-07 14:52:56,848 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:53:05,437 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:53:23,427 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:53:27,587 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:53:27,944 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:53:39,509 - root - INFO - Se agregar al cliente 125H000057 para realizar la venta de contado por combo componente
+2025-02-07 14:53:40,748 - root - INFO - Se ingresa la observación al documento
+2025-02-07 14:53:42,041 - root - INFO - Se ingresa la observación al documento
+2025-02-07 14:53:43,738 - root - INFO -  Ingresa articulo FA01001 
+2025-02-07 14:53:44,815 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:53:45,968 - root - INFO - Cantidad del artículo 1
+2025-02-07 14:53:46,061 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:53:49,173 - root - INFO -  Ingresa articulo FA01003 
+2025-02-07 14:53:53,436 - root - INFO - Cantidad del artículo 1
+2025-02-07 14:53:53,522 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:53:55,649 - root - INFO -  Ingresa articulo FAP02630 
+2025-02-07 14:53:57,861 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:53:57,939 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:54:00,056 - root - INFO -  Se presiona el boton 'cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:54:03,192 - root - INFO - Se da click a la información a detalle de la venta356
+2025-02-07 14:54:05,266 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:54:06,320 - root - INFO - El total de la venta es correcto
+2025-02-07 14:54:07,532 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:54:08,623 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:54:16,026 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:54:16,584 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:54:18,456 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:54:31,411 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:54:33,761 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:54:35,964 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:54:38,834 - root - INFO -  Se encontró el documento de venta 
+2025-02-07 14:54:47,564 - root - INFO -  Genera nuevo Documento Venta Contado a partir de la Venta Pendiente y lo emite
+2025-02-07 14:54:51,743 - root - INFO - click en documento de venta
+2025-02-07 14:54:55,161 - root - INFO - Se ingresa la observación al documento
+2025-02-07 14:54:56,654 - root - INFO - Se ingresa la observación al documento
+2025-02-07 14:54:56,870 - root - INFO - se dió clic en items
+2025-02-07 14:54:57,255 - root - INFO - Se da click a la información a detalle de la venta356
+2025-02-07 14:54:59,289 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:55:00,342 - root - INFO - El total de la venta es correcto
+2025-02-07 14:55:01,537 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:55:02,766 - root - INFO -  Se da clic en el boton Guardar; se emite el documento.
+2025-02-07 14:55:13,015 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:55:16,442 - root - INFO -  Se encontró y abrió el documento emitido 
+2025-02-07 14:55:18,730 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta
+2025-02-07 14:55:20,885 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:55:31,711 - root - INFO - Abre explorador de reportes 
+2025-02-07 14:55:33,986 - root - INFO - Abre reporte docarti
+2025-02-07 14:55:35,596 - root - INFO - Ingresa el tipo de documento PM10
+2025-02-07 14:55:42,027 - root - INFO -  Ingresa el numero de documento 
+2025-02-07 14:55:43,129 - root - INFO -  Se presiona el boton 'ver', para mostrar la informacion del reporte.
+2025-02-07 14:55:49,203 - root - INFO - Se ingresa a la tabla docarti para validar que el articulo sea combo
+2025-02-07 14:56:33,935 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-07 14:56:42,663 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-07 14:56:59,865 - root - INFO - Se ingresa al menú Tablas
+2025-02-07 14:57:02,163 - root - INFO - Se ingresó al menú Articulos
+2025-02-07 14:57:12,321 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-07 14:57:13,704 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-07 14:57:51,465 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-07 14:57:55,621 - root - INFO -  Ingresa el almacen 
+2025-02-07 14:57:55,945 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-07 14:57:59,974 - root - ERROR - No se obtuvo datos: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//table[contains(@class, 'report-data-table report-data-table')]"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-07 14:58:08,492 - root - INFO - Se agregar al cliente 0010051428 para realizar la venta de contado por packing
+2025-02-07 14:58:12,664 - root - INFO -  Ingresa articulo 1
+2025-02-07 14:58:13,720 - root - INFO - El precio unitario está en pantalla
+2025-02-07 14:58:15,944 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:58:17,090 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:58:20,161 - root - INFO -  Ingresa articulo 2
+2025-02-07 14:58:23,467 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:58:24,579 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:58:27,739 - root - INFO -  Ingresa articulo 3
+2025-02-07 14:58:29,956 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:58:31,085 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:58:34,237 - root - INFO -  Ingresa articulo 4
+2025-02-07 14:58:36,541 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:58:37,650 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:58:40,836 - root - INFO -  Se presiona el boton 'cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:58:42,942 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:58:44,979 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:58:46,026 - root - INFO - El total de la venta es correcto
+2025-02-07 14:58:47,160 - root - INFO - Se cierra información a detalle de la venta de contado
+2025-02-07 14:58:48,281 - root - INFO -  Se da clic en el boton guardar; se emite el documento.
+2025-02-07 14:58:54,763 - root - INFO - Despliega el menú Documentos
+2025-02-07 14:58:55,364 - root - INFO - Ingresa a documentos emitidos
+2025-02-07 14:58:56,884 - root - INFO - Se dio clic en el filtro documentos
+2025-02-07 14:59:09,757 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:59:12,160 - root - INFO -  Se encontro y abrio el documento emitido 
+2025-02-07 14:59:14,248 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar el documento de venta.
+2025-02-07 14:59:16,421 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-07 14:59:22,559 - root - INFO - Se agregar al cliente 0010051428 para realizar la venta de contado por packing
+2025-02-07 14:59:26,792 - root - INFO -  Ingresa articulo 1
+2025-02-07 14:59:28,998 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:59:31,081 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:59:32,204 - root - INFO -  Ingresa articulo 2
+2025-02-07 14:59:35,425 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:59:36,525 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:59:39,647 - root - INFO -  Ingresa articulo 3
+2025-02-07 14:59:41,909 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:59:43,040 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:59:46,173 - root - INFO -  Ingresa articulo 4
+2025-02-07 14:59:48,420 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-07 14:59:49,569 - root - INFO -  Se presiona el boton 'aceptar', para ingresar el articulo y la cantidad.
+2025-02-07 14:59:52,702 - root - INFO -  Se presiona el boton 'Cancelar', para mostrar la informacion del reporte.
+2025-02-07 14:59:54,819 - root - INFO - Se da click a la información a detalle de la venta de contado
+2025-02-07 14:59:56,881 - root - INFO - El IVA de la venta es correcto
+2025-02-07 14:59:58,506 - root - INFO - El total de la venta es correcto
+2025-02-07 14:59:59,697 - root - INFO - Se cierra información a detalle de la venta de contado
