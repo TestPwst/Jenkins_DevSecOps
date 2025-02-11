@@ -494,19 +494,20 @@ class Configuracion:
     activa = "//input[@name='_Enabled']"
     elementos = "//tr[@class='emDataRow'][last()]"  # *******************WBC28*******************
     versiones = "//table[@class='ui-widget ui-widget-content dataTable']"
+    buscar_v6 = "6.0.0"
     buscar_v5 = "5.0.0"
     buscar_v4 = "4.0.0"
     btn_grupos = "//div[text()='grupos']"
+    grupo_v6 = "pc4"
     grupo_v5 = "pc2"
     grupo_v4 = "pex"
     pc2 = "//td[text()='pc2']"
     pex = "//td[text()='pex']"
+    pc4 = "//td[text()='pc4']"
     serv_version = "//a[contains(text(), 'Servidor y versión')]"
     menu_desplegable_serv_version = "//select[@name='_ClickOnceVersion']"
     actualizar_base_version = "//span[@class='ui-icon ui-icon-check']"
     aceptar_bd = "//button[text()='Si']"
-    errores_actualizacion = "//error-count[contains(text(),'1 errores')]"
-    results = "/html/body/onresults"
 
     # ***************************************** Variables VCR *******************************************************
 
