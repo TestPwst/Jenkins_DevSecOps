@@ -99,3 +99,14 @@
 2025-02-11 13:51:25,870 - root - INFO -  Se dio click correctamente en el desplegable
 2025-02-11 13:51:26,924 - root - ERROR - No se encontraron versiones en el desplegable
 2025-02-11 13:51:30,694 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 13:56:42,575 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 13:56:45,734 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 13:56:46,795 - root - INFO -  Versión encontrada: 5.0.0.55
+2025-02-11 13:56:46,796 - root - INFO -  Nueva versión creada: 5.0.0.56
+2025-02-11 13:56:49,430 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 13:56:57,800 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 13:57:01,483 - root - INFO -  Ingresa al código pc2.
+2025-02-11 13:57:05,120 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 13:57:08,819 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 13:57:09,850 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 13:57:13,675 - root - INFO -  Se actualiza la BD de la nueva versión
