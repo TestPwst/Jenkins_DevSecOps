@@ -1,0 +1,263 @@
+2025-02-10 18:00:06,794 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:00:10,448 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:00:14,097 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:00:17,767 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:00:18,787 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:00:18,821 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:00:22,572 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:00:30,266 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:00:30,325 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.
+2025-02-10 18:00:35,695 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:00:36,725 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-10 18:00:36,725 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-10 18:00:39,330 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:00:44,471 - root - ERROR - No se pudo guardar correctamente la versión Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:00:44,471 - root - ERROR - No se pudieron ingresar los datos de la versión, se debe al error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:09:20,912 - root - ERROR - No se pudo encontrar el campo para ingresar la versión, revisar el error Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:27:03,782 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 18:27:07,024 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:27:08,429 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-10 18:27:08,429 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:27:11,437 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:27:20,027 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:27:23,610 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:27:27,235 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:27:30,904 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:27:31,932 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:27:31,971 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:27:35,697 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:27:43,376 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:27:43,437 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.
+2025-02-10 18:27:58,547 - root - ERROR - No se pudo encontrar el campo para ingresar la versión, revisar el error Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:35:26,588 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 18:35:30,220 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:35:31,267 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-10 18:35:31,268 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:35:33,883 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:35:41,770 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:35:45,432 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:35:49,044 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:35:52,735 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:35:53,780 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:35:53,819 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:35:57,550 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:36:05,218 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:36:05,274 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.
+2025-02-10 18:36:29,367 - root - ERROR - No se pudo encontrar el campo para ingresar la versión, revisar el error Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7587C4DA5]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:38:40,647 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 18:38:43,559 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:38:44,706 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-10 18:38:44,707 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:38:47,380 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:38:55,292 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:38:58,932 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:39:02,536 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:39:06,170 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:39:07,227 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:39:07,471 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:39:11,237 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:39:18,948 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:39:19,010 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.
+2025-02-10 18:39:23,137 - root - ERROR - No se pudo encontrar el campo para ingresar la versión, revisar el error Message: element click intercepted: Element <div class="iconText">...</div> is not clickable at point (426, 371). Other element would receive the click: <div class="entityManagerTable">...</div>
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF7588370C9]
+	(No symbol) [0x00007FF758834A92]
+	(No symbol) [0x00007FF758831B31]
+	(No symbol) [0x00007FF758830A41]
+	(No symbol) [0x00007FF758822234]
+	(No symbol) [0x00007FF75885721A]
+	(No symbol) [0x00007FF758821AE6]
+	(No symbol) [0x00007FF758857430]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:56:41,769 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 18:56:45,293 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:56:46,361 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-10 18:56:46,361 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:56:49,000 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:56:56,842 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:57:00,489 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:57:04,107 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:57:07,769 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:57:08,804 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:57:09,073 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:57:12,829 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:57:20,529 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:57:20,554 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.
+2025-02-10 18:57:43,323 - root - ERROR - No se pudo encontrar el campo para ingresar la versión, revisar el error Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8DCC]
+	(No symbol) [0x00007FF7587C60FB]
+	(No symbol) [0x00007FF7587C4FAE]
+	(No symbol) [0x00007FF7587E971A]
+	(No symbol) [0x00007FF75885EFAF]
+	(No symbol) [0x00007FF75887EFB2]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-10 18:58:35,820 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 18:58:38,709 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-10 18:58:39,795 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-10 18:58:39,796 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:58:42,385 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 18:58:50,186 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 18:58:53,845 - root - INFO -  Ingresa al código pex.
+2025-02-10 18:58:57,456 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 18:59:01,113 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 18:59:02,143 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-10 18:59:02,175 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-10 18:59:05,892 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 18:59:13,581 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 18:59:13,642 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.40/dbupdate.ashx on this server.

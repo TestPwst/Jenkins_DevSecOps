@@ -1,0 +1,39 @@
+2025-02-10 13:51:54,256 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-10 13:51:58,633 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-10 13:51:59,784 - root - INFO -  Versión encontrada: 4.0.0.41
+2025-02-10 13:51:59,787 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-10 13:52:02,414 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-10 13:52:10,539 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-10 13:52:14,167 - root - INFO -  Ingresa al código pex.
+2025-02-10 13:52:17,772 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-10 13:52:22,135 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-10 13:52:23,165 - root - INFO -  Versión actual: 4.0.0.41
+2025-02-10 13:52:23,417 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-10 13:52:27,171 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-10 13:52:35,465 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-10 13:52:35,499 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-10 13:52:35,579 - root - WARNING -  No se encontró un mensaje de Finalizado.
+2025-02-10 13:52:56,019 - root - ERROR -  No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7589D2EC5+28789]
+	(No symbol) [0x00007FF75893F870]
+	(No symbol) [0x00007FF7587D8F9A]
+	(No symbol) [0x00007FF75882F236]
+	(No symbol) [0x00007FF75882F46C]
+	(No symbol) [0x00007FF7588829F7]
+	(No symbol) [0x00007FF75885725F]
+	(No symbol) [0x00007FF75887F6C3]
+	(No symbol) [0x00007FF758856FF3]
+	(No symbol) [0x00007FF75881FF0E]
+	(No symbol) [0x00007FF758821193]
+	GetHandleVerifier [0x00007FF758D1D5FD+3479469]
+	GetHandleVerifier [0x00007FF758D371A3+3584851]
+	GetHandleVerifier [0x00007FF758D2C44D+3540477]
+	GetHandleVerifier [0x00007FF758A98B6A+838938]
+	(No symbol) [0x00007FF75894A4EF]
+	(No symbol) [0x00007FF758946954]
+	(No symbol) [0x00007FF758946AF6]
+	(No symbol) [0x00007FF758936499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+

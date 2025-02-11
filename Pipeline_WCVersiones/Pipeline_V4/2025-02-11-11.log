@@ -1,0 +1,210 @@
+2025-02-11 11:12:47,473 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:12:50,154 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:12:51,300 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-11 11:12:51,300 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-11 11:12:54,229 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:13:02,478 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:13:06,439 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:13:10,099 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:13:13,757 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:13:14,811 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-11 11:13:14,855 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-11 11:13:18,591 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:13:26,690 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:13:27,194 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:13:27,214 - root - WARNING - No se encontró un mensaje de 'Finalizado'.
+2025-02-11 11:13:57,590 - root - ERROR - No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C3262EC5+28789]
+	(No symbol) [0x00007FF6C31CF870]
+	(No symbol) [0x00007FF6C3068F9A]
+	(No symbol) [0x00007FF6C30BF236]
+	(No symbol) [0x00007FF6C30BF46C]
+	(No symbol) [0x00007FF6C31129F7]
+	(No symbol) [0x00007FF6C30E725F]
+	(No symbol) [0x00007FF6C310F6C3]
+	(No symbol) [0x00007FF6C30E6FF3]
+	(No symbol) [0x00007FF6C30AFF0E]
+	(No symbol) [0x00007FF6C30B1193]
+	GetHandleVerifier [0x00007FF6C35AD5FD+3479469]
+	GetHandleVerifier [0x00007FF6C35C71A3+3584851]
+	GetHandleVerifier [0x00007FF6C35BC44D+3540477]
+	GetHandleVerifier [0x00007FF6C3328B6A+838938]
+	(No symbol) [0x00007FF6C31DA4EF]
+	(No symbol) [0x00007FF6C31D6954]
+	(No symbol) [0x00007FF6C31D6AF6]
+	(No symbol) [0x00007FF6C31C6499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-11 11:16:00,694 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:16:03,465 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:16:04,907 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-11 11:16:04,908 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-11 11:16:07,762 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:16:16,105 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:16:19,833 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:16:23,470 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:16:27,141 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:16:28,209 - root - INFO -  Versión actual: 4.0.0.40
+2025-02-11 11:16:28,507 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-11 11:16:32,570 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:16:40,233 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:16:40,316 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:16:40,336 - root - WARNING - No se encontró un mensaje de 'Finalizado'.
+2025-02-11 11:17:10,524 - root - ERROR - No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C3262EC5+28789]
+	(No symbol) [0x00007FF6C31CF870]
+	(No symbol) [0x00007FF6C3068F9A]
+	(No symbol) [0x00007FF6C30BF236]
+	(No symbol) [0x00007FF6C30BF46C]
+	(No symbol) [0x00007FF6C31129F7]
+	(No symbol) [0x00007FF6C30E725F]
+	(No symbol) [0x00007FF6C310F6C3]
+	(No symbol) [0x00007FF6C30E6FF3]
+	(No symbol) [0x00007FF6C30AFF0E]
+	(No symbol) [0x00007FF6C30B1193]
+	GetHandleVerifier [0x00007FF6C35AD5FD+3479469]
+	GetHandleVerifier [0x00007FF6C35C71A3+3584851]
+	GetHandleVerifier [0x00007FF6C35BC44D+3540477]
+	GetHandleVerifier [0x00007FF6C3328B6A+838938]
+	(No symbol) [0x00007FF6C31DA4EF]
+	(No symbol) [0x00007FF6C31D6954]
+	(No symbol) [0x00007FF6C31D6AF6]
+	(No symbol) [0x00007FF6C31C6499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-11 11:30:19,282 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:30:22,290 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:30:23,367 - root - INFO -  Versión encontrada: 4.0.0.41
+2025-02-11 11:30:23,368 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-11 11:30:26,046 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:30:34,432 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:30:38,068 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:30:41,685 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:30:45,637 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:30:46,662 - root - INFO -  Versión actual: 4.0.0.41
+2025-02-11 11:30:47,363 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-11 11:30:51,119 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:30:58,924 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:30:58,984 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:30:59,028 - root - WARNING - No se encontró un mensaje de 'Finalizado'.
+2025-02-11 11:31:29,167 - root - ERROR - No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C3262EC5+28789]
+	(No symbol) [0x00007FF6C31CF870]
+	(No symbol) [0x00007FF6C3068F9A]
+	(No symbol) [0x00007FF6C30BF236]
+	(No symbol) [0x00007FF6C30BF46C]
+	(No symbol) [0x00007FF6C31129F7]
+	(No symbol) [0x00007FF6C30E725F]
+	(No symbol) [0x00007FF6C310F6C3]
+	(No symbol) [0x00007FF6C30E6FF3]
+	(No symbol) [0x00007FF6C30AFF0E]
+	(No symbol) [0x00007FF6C30B1193]
+	GetHandleVerifier [0x00007FF6C35AD5FD+3479469]
+	GetHandleVerifier [0x00007FF6C35C71A3+3584851]
+	GetHandleVerifier [0x00007FF6C35BC44D+3540477]
+	GetHandleVerifier [0x00007FF6C3328B6A+838938]
+	(No symbol) [0x00007FF6C31DA4EF]
+	(No symbol) [0x00007FF6C31D6954]
+	(No symbol) [0x00007FF6C31D6AF6]
+	(No symbol) [0x00007FF6C31C6499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-11 11:33:39,355 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:33:43,338 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:33:44,402 - root - INFO -  Versión encontrada: 4.0.0.42
+2025-02-11 11:33:44,402 - root - INFO -  Nueva versión creada: 4.0.0.43
+2025-02-11 11:33:47,018 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:33:55,127 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:33:58,750 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:34:02,417 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:34:06,126 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:34:07,181 - root - INFO -  Versión actual: 4.0.0.42
+2025-02-11 11:34:07,447 - root - INFO -  Nueva versión creada: 4.0.0.43
+2025-02-11 11:34:11,201 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:34:18,939 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:34:18,995 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:34:19,014 - root - WARNING - No se encontró un mensaje de 'Finalizado'.
+2025-02-11 11:34:49,037 - root - ERROR - No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C3262EC5+28789]
+	(No symbol) [0x00007FF6C31CF870]
+	(No symbol) [0x00007FF6C3068F9A]
+	(No symbol) [0x00007FF6C30BF236]
+	(No symbol) [0x00007FF6C30BF46C]
+	(No symbol) [0x00007FF6C31129F7]
+	(No symbol) [0x00007FF6C30E725F]
+	(No symbol) [0x00007FF6C310F6C3]
+	(No symbol) [0x00007FF6C30E6FF3]
+	(No symbol) [0x00007FF6C30AFF0E]
+	(No symbol) [0x00007FF6C30B1193]
+	GetHandleVerifier [0x00007FF6C35AD5FD+3479469]
+	GetHandleVerifier [0x00007FF6C35C71A3+3584851]
+	GetHandleVerifier [0x00007FF6C35BC44D+3540477]
+	GetHandleVerifier [0x00007FF6C3328B6A+838938]
+	(No symbol) [0x00007FF6C31DA4EF]
+	(No symbol) [0x00007FF6C31D6954]
+	(No symbol) [0x00007FF6C31D6AF6]
+	(No symbol) [0x00007FF6C31C6499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-11 11:35:38,015 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:35:42,284 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:35:43,352 - root - INFO -  Versión encontrada: 4.0.0.43
+2025-02-11 11:35:43,352 - root - INFO -  Nueva versión creada: 4.0.0.44
+2025-02-11 11:35:49,316 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:35:57,561 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:36:01,170 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:36:04,814 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:36:08,538 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:36:09,571 - root - INFO -  Versión actual: 4.0.0.43
+2025-02-11 11:36:09,824 - root - INFO -  Nueva versión creada: 4.0.0.44
+2025-02-11 11:36:13,576 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:36:21,306 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:36:21,367 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:36:21,387 - root - WARNING - No se encontró un mensaje de 'Finalizado'.
+2025-02-11 11:36:51,934 - root - ERROR - No se pudo obtener el estado de la actualización de la base de datos: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C3262EC5+28789]
+	(No symbol) [0x00007FF6C31CF870]
+	(No symbol) [0x00007FF6C3068F9A]
+	(No symbol) [0x00007FF6C30BF236]
+	(No symbol) [0x00007FF6C30BF46C]
+	(No symbol) [0x00007FF6C31129F7]
+	(No symbol) [0x00007FF6C30E725F]
+	(No symbol) [0x00007FF6C310F6C3]
+	(No symbol) [0x00007FF6C30E6FF3]
+	(No symbol) [0x00007FF6C30AFF0E]
+	(No symbol) [0x00007FF6C30B1193]
+	GetHandleVerifier [0x00007FF6C35AD5FD+3479469]
+	GetHandleVerifier [0x00007FF6C35C71A3+3584851]
+	GetHandleVerifier [0x00007FF6C35BC44D+3540477]
+	GetHandleVerifier [0x00007FF6C3328B6A+838938]
+	(No symbol) [0x00007FF6C31DA4EF]
+	(No symbol) [0x00007FF6C31D6954]
+	(No symbol) [0x00007FF6C31D6AF6]
+	(No symbol) [0x00007FF6C31C6499]
+	BaseThreadInitThunk [0x00007FFFE0627374+20]
+	RtlUserThreadStart [0x00007FFFE24FCC91+33]
+
+2025-02-11 11:51:47,064 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 11:51:51,006 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 11:51:52,036 - root - INFO -  Versión encontrada: 4.0.0.39
+2025-02-11 11:51:52,037 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-11 11:51:54,640 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 11:52:02,863 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 11:52:06,498 - root - INFO -  Ingresa al código pex.
+2025-02-11 11:52:10,157 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 11:52:13,874 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 11:52:14,915 - root - INFO -  Versión actual: 4.0.0.39
+2025-02-11 11:52:15,555 - root - INFO -  Nueva versión creada: 4.0.0.40
+2025-02-11 11:52:19,320 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 11:52:26,983 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 11:52:30,154 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 11:52:30,155 - root - INFO - Se está actualizando la base de datos en la URL: https://app01.assist.com.uy/4.0.0.39/dbupdate.ashx?action=updatedb&dbid=pex

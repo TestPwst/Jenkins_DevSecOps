@@ -1,0 +1,14 @@
+2025-02-11 08:52:41,197 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 08:52:46,442 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-11 08:52:47,597 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-11 08:52:47,598 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-11 08:52:50,730 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 08:53:02,009 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-11 08:53:05,622 - root - INFO -  Ingresa al código pex.
+2025-02-11 08:53:09,260 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 08:53:12,982 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 08:53:14,183 - root - INFO -  Versión actual: 4.0.0.40
+2025-02-11 08:53:14,674 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-11 08:53:18,836 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 08:53:26,574 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 08:53:26,640 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.41/dbupdate.ashx on this server.
