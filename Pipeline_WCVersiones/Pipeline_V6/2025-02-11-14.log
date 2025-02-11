@@ -1,0 +1,26 @@
+2025-02-11 14:50:01,918 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:50:06,888 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 14:50:07,996 - root - INFO -  Versión encontrada: 6.0.0.0
+2025-02-11 14:50:07,997 - root - INFO -  Nueva versión creada: 6.0.0.1
+2025-02-11 14:50:10,712 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:50:18,760 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 14:50:22,517 - root - INFO -  Ingresa al código pc4.
+2025-02-11 14:50:26,126 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:50:29,788 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:50:30,849 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:50:34,582 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:50:42,266 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 14:50:45,351 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 14:50:45,364 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 14:50:45,410 - root - WARNING - La base de datos se actualizó pero con 1 errores.
+2025-02-11 14:57:53,883 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:57:57,781 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 14:57:58,822 - root - INFO -  Versión encontrada: 6.0.0.1
+2025-02-11 14:57:58,822 - root - INFO -  Nueva versión creada: 6.0.0.2
+2025-02-11 14:58:01,445 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:58:09,626 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 14:58:13,335 - root - INFO -  Ingresa al código pc4.
+2025-02-11 14:58:16,979 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:58:20,682 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:58:21,739 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:58:25,468 - root - INFO -  Se actualiza la BD de la nueva versión

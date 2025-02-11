@@ -1,0 +1,49 @@
+2025-02-11 15:01:22,912 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 15:01:27,516 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 15:01:28,628 - root - INFO -  Versión encontrada: 6.0.0.0
+2025-02-11 15:01:28,628 - root - INFO -  Nueva versión creada: 6.0.0.1
+2025-02-11 15:01:31,269 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 15:01:39,381 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 15:01:43,117 - root - INFO -  Ingresa al código pc4.
+2025-02-11 15:01:46,740 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 15:01:50,378 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 15:01:51,431 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 15:01:55,180 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 15:02:02,883 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 15:02:05,992 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 15:02:06,004 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 15:02:06,036 - root - WARNING - La base de datos se actualizó pero con 1 errores.
+2025-02-11 15:16:58,717 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 15:17:03,107 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 15:17:04,169 - root - INFO -  Versión encontrada: 6.0.0.1
+2025-02-11 15:17:04,170 - root - INFO -  Nueva versión creada: 6.0.0.2
+2025-02-11 15:17:06,801 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 15:17:15,752 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 15:17:19,396 - root - INFO -  Ingresa al código pc4.
+2025-02-11 15:17:23,033 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 15:17:26,718 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 15:17:27,771 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 15:24:18,364 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 15:24:22,583 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 15:24:23,647 - root - INFO -  Versión encontrada: 6.0.0.0
+2025-02-11 15:24:23,647 - root - INFO -  Nueva versión creada: 6.0.0.1
+2025-02-11 15:24:26,287 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 15:24:34,625 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 15:24:38,242 - root - INFO -  Ingresa al código pc4.
+2025-02-11 15:24:41,936 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 15:24:45,619 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 15:24:46,672 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 15:24:50,469 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 15:24:58,166 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 15:28:01,152 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 15:28:04,854 - root - INFO -  Se busca la versión 6 en el sistema
+2025-02-11 15:28:05,930 - root - INFO -  Versión encontrada: 6.0.0.0
+2025-02-11 15:28:05,930 - root - INFO -  Nueva versión creada: 6.0.0.1
+2025-02-11 15:28:08,583 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 15:28:16,733 - root - INFO -  Se busca la versión 6 con pex en el sistema
+2025-02-11 15:28:20,423 - root - INFO -  Ingresa al código pc4.
+2025-02-11 15:28:24,067 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 15:28:27,779 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 15:28:28,836 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 15:28:32,624 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 15:28:40,503 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
