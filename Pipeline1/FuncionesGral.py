@@ -90,7 +90,7 @@ class funciones:
         # Cambia de pestaña
         try:
             driver.switch_to.window(driver.window_handles[0])
-            time.sleep(2)
+            time.sleep(10)
             driver.switch_to.window(driver.window_handles[1])
             time.sleep(2)
             Log().info("Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0")
