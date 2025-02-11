@@ -1,0 +1,3 @@
+2025-02-11 16:00:02,953 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 16:00:06,077 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /5.0.0.58/dbupdate.ashx on this server.
+2025-02-11 16:00:06,078 - root - ERROR - Se encuentra un error en la base, ya que no permite actualizar la base de datos correctamente

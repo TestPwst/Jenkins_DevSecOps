@@ -1,0 +1,71 @@
+2025-02-11 14:06:52,449 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:06:57,827 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 14:06:58,900 - root - INFO -  Versión encontrada: 5.0.0.54
+2025-02-11 14:06:58,901 - root - INFO -  Nueva versión creada: 5.0.0.55
+2025-02-11 14:07:01,566 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:07:09,913 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 14:07:13,538 - root - INFO -  Ingresa al código pc2.
+2025-02-11 14:07:17,158 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:07:20,860 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:07:21,917 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:07:25,763 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:07:33,427 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 14:07:36,532 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 14:07:36,544 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 14:07:36,577 - root - WARNING - La base de datos se actualizó pero con 2 errores.
+2025-02-11 14:24:04,860 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:24:08,883 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 14:24:09,953 - root - INFO -  Versión encontrada: 5.0.0.55
+2025-02-11 14:24:09,953 - root - INFO -  Nueva versión creada: 5.0.0.56
+2025-02-11 14:24:12,566 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:24:20,977 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 14:24:24,630 - root - INFO -  Ingresa al código pc2.
+2025-02-11 14:24:28,285 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:24:32,011 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:24:33,069 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:24:36,932 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:24:44,585 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 14:24:47,854 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 14:24:47,867 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 14:24:47,904 - root - WARNING - La base de datos se actualizó pero con 2 errores.
+2025-02-11 14:26:56,309 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:27:00,525 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 14:27:01,587 - root - INFO -  Versión encontrada: 5.0.0.54
+2025-02-11 14:27:01,588 - root - INFO -  Nueva versión creada: 5.0.0.55
+2025-02-11 14:27:04,200 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:27:12,342 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 14:27:16,067 - root - INFO -  Ingresa al código pc2.
+2025-02-11 14:27:19,728 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:27:23,441 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:27:24,510 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:27:28,331 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:27:36,133 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 14:27:39,238 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 14:27:39,251 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 14:27:39,283 - root - WARNING - La base de datos se actualizó pero con 2 errores.
+2025-02-11 14:28:56,105 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:28:59,800 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 14:29:00,831 - root - INFO -  Versión encontrada: 5.0.0.55
+2025-02-11 14:29:00,832 - root - INFO -  Nueva versión creada: 5.0.0.56
+2025-02-11 14:29:03,445 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:29:11,601 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 14:29:15,621 - root - INFO -  Ingresa al código pc2.
+2025-02-11 14:29:19,284 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:29:22,919 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:29:23,972 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:29:27,725 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:32:42,163 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-11 14:32:45,903 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-11 14:32:46,964 - root - INFO -  Versión encontrada: 5.0.0.54
+2025-02-11 14:32:46,965 - root - INFO -  Nueva versión creada: 5.0.0.55
+2025-02-11 14:32:49,651 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-11 14:32:57,865 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-11 14:33:01,572 - root - INFO -  Ingresa al código pc2.
+2025-02-11 14:33:05,197 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-11 14:33:08,895 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-11 14:33:09,950 - root - ERROR - No se encontraron versiones en el desplegable
+2025-02-11 14:33:13,750 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-11 14:33:21,446 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-11 14:33:24,538 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-11 14:33:24,556 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-11 14:33:24,610 - root - WARNING - La base de datos se actualizó pero con 2 errores.
