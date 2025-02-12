@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, TimeoutException
+from selenium.common.exceptions import ElementNotInteractableException, TimeoutException
 from selenium.webdriver.common.by import By
 from Pipeline1.VariablesGral import *
 
@@ -13,6 +13,25 @@ driver = webdriver.Chrome()  # se crea el objeto webdriver
 wait = WebDriverWait(driver, 60)
 action = ActionChains(driver)
 
+buscar_v4 = " Se busca la versión 4 en el sistema"
+buscar_v4_base = " Se busca la versión 4 con pex en el sistema"
+buscar_version = r'\b\d+\.\d+\.\d+\.\d+\b'
+buscarversion4 = r'\b4\.0\.0\.\d+\b'
+crear_version = " Se presiona el boton 'Nuevo', para crear una nueva versión."
+no_numeros = "No se encontraron números en la página."
+no_versiones = "No se encontraron versiones en el desplegable"
+ingreso_pex = " Ingresa al código pex."
+servidor_version_menu = " Ingresa al menú Servidor y Versión."
+click_desplegable = " Se dio click correctamente en el desplegable"
+sin_errores = "La base de datos se actualizó sin errores."
+num_errores = r"(\d+) errores"
+sin_msg_finalizado = "No se encontró un mensaje de 'Finalizado'."
+actualizacion_bd_finalizada = "Actualización de la base de datos finalizada con éxito"
+sin_403 = "No se detectó bloqueo de acceso, se continúa con la validación."
+no_cambio_pwst = "No se pudo cambiar a la ventana de PowerStreet"
+aceptar_actualizacion_bd = " Se acepta la actualización de la BD de la nueva versión"
+boton_actualizar_bd = " Se actualiza la BD de la nueva versión"
+
 
 class WBC28:  # clase del código
 
@@ -22,7 +41,7 @@ class WBC28:  # clase del código
         driver.get("https://client.assist.com.uy/")  # ingresa a la URL de Client assist
         driver.maximize_window()  # Maximiza la ventana de windows
         time.sleep(3)
-    except Exception as e:
+    except Exception as e:  # pragma: no cover
         Log().error(f"No se pudo ingresar al ambiente assist {e}")  # pragma: no cover
         raise
 
@@ -41,7 +60,7 @@ class WBC28:  # clase del código
         iniciar_sesion.click()
         time.sleep(1)
         Log().info(" Se valida que el ingreso al sistema es correcto")
-    except Exception as e:
+    except Exception as e:  # pragma: no cover
         Log().error(f"No se pudo ingresar el usuario y/o la contraseña, validar el error: {e}")  # pragma: no cover
         raise
 
@@ -62,7 +81,7 @@ class WBC28:  # clase del código
         #   BuscarUsuario.send_keys(Configuracion.id_usuario) #-> Configuración Web client ( awsqa)
         buscar_usuario_wbc2.send_keys(Configuracion.buscar_v4)  # -> Configuración assist
         buscar_usuario_wbc2.send_keys(Keys.ENTER)
-        Log().info(" Se busca la versión 4 en el sistema")
+        Log().info(buscar_v4)
         time.sleep(1)
 
     except Exception as e:  # pragma: no cover
@@ -76,7 +95,7 @@ class WBC28:  # clase del código
 
         for elem in versiones:
             texto = elem.text.strip()
-            match = re.search(r'\b\d+\.\d+\.\d+\.\d+\b', texto)
+            match = re.search(buscar_version, texto)
             if match:
                 version = match.group()
                 Log().info(f" Versión encontrada: {version}")
@@ -85,7 +104,7 @@ class WBC28:  # clase del código
             # Encontrar la versión más alta
             try:
                 ultima_version = max(todas_las_versiones, key=lambda v: [int(x) for x in v.split(".")])
-            except Exception as e:
+            except Exception as e:  # pragma: no cover
                 Log().info(f"Error al calcular la versión más alta: {str(e)}")
                 ultima_version = None
 
@@ -108,7 +127,7 @@ class WBC28:  # clase del código
                         .pause(1) \
                         .release()
                     action.perform()
-                    Log().info(" Se presiona el boton 'Nuevo', para crear una nueva versión.")
+                    Log().info(crear_version)
 
                 except ElementNotInteractableException as e:  # pragma: no cover
                     Log().error(f"No se pudo interactuar con el botón y crear uno nuevo: {e}")
@@ -148,7 +167,7 @@ class WBC28:  # clase del código
                         EC.presence_of_element_located((By.XPATH, Configuracion.btn_guardar)))
                     guardar_registro_wbc28.click()
                     time.sleep(1)
-                except Exception as e:
+                except Exception as e:  # pragma: no cover
                     Log().error(f"No se pudo guardar correctamente la versión {e}")
                     raise
                 try:
@@ -156,11 +175,11 @@ class WBC28:  # clase del código
                         EC.presence_of_element_located((By.XPATH, Configuracion.btn_cerrar_pantalla_wc)))
                     cerrar_pantalla_wbc28.click()
                     time.sleep(1)
-                except Exception as e:
+                except Exception as e:  # pragma: no cover
                     Log().error(f"No se pudo cerrar la ventana de versiones {e}")
                     raise
             else:
-                print("No se encontraron números en la página.")
+                print(no_numeros)
 
     except Exception as e:  # pragma: no cover
         Log().error(f"No se pudieron ingresar los datos de la versión, se debe al error: {e}")
@@ -180,7 +199,7 @@ class WBC28:  # clase del código
         buscar_usuario_wbc2 = wait.until(EC.presence_of_element_located((By.XPATH, Configuracion.campo_buscar)))
         buscar_usuario_wbc2.send_keys(Configuracion.grupo_v4)  # -> Configuración assist
         buscar_usuario_wbc2.send_keys(Keys.ENTER)
-        Log().info(" Se busca la versión 4 con pex en el sistema")
+        Log().info(buscar_v4_base)
         time.sleep(1)
 
     except Exception as e:  # pragma: no cover
@@ -196,9 +215,9 @@ class WBC28:  # clase del código
             .pause(1) \
             .release()
         action.perform()
-        Log().info(" Ingresa al código pex.")
+        Log().info(ingreso_pex)
         time.sleep(1)
-    except Exception as e:
+    except Exception as e:  # pragma: no cover
         Log().error(f"No se pudo abrir el grupo de pex para la versión 4, {e}")
         raise
 
@@ -212,9 +231,9 @@ class WBC28:  # clase del código
             .pause(1) \
             .release()
         action.perform()
-        Log().info(" Ingresa al menú Servidor y Versión.")
+        Log().info(servidor_version_menu)
         time.sleep(1)
-    except Exception as e:
+    except Exception as e:  # pragma: no cover
         Log().error(f"No se pudo dar click en el manú Servidor y Versión {e}")
 
     try:
@@ -227,9 +246,9 @@ class WBC28:  # clase del código
             .pause(1) \
             .release()
         action.perform()
-        Log().info(" Se dio click correctamente en el desplegable")
+        Log().info(click_desplegable)
         time.sleep(1)
-    except Exception as e:
+    except Exception as e:  # pragma: no cover
         Log().error(f"No se pudo abrir el desplegable para cambiar a la versión más reciente, {e}")
         raise
 
@@ -239,25 +258,23 @@ class WBC28:  # clase del código
 
         for elem in version_actual:
             texto = elem.text.strip()
-            match = re.search(r'\b4\.0\.0\.\d+\b', texto)
+            match = re.search(buscarversion4, texto)
             if match:
                 Log().info(f" Versión actual: {version}")
-                # ultima_version = version  # Guardamos la última versión encontrada
                 todas_las_versiones.append(version)  # Aseguramos que sean strings
 
                 # Encontrar la versión más alta
                 try:
                     ultima_version = max(todas_las_versiones, key=lambda v: [int(x) for x in v.split(".")])
-                    element = driver.find_element(By.XPATH,
-                                                  "//option[@value='5.0.0.50']/preceding-sibling::option[1]")
+                    element = driver.find_element(By.XPATH, Configuracion.ultima_v4)
                     element.click()
                     Log().info(f" Nueva versión creada: {nueva_version}")
 
-                except Exception as e:
+                except Exception as e:  # pragma: no cover
                     Log().info(f"Error al calcular la versión más alta: {str(e)}")
                     ultima_version = None
             else:
-                Log().error("No se encontraron versiones en el desplegable")
+                Log().error(no_versiones)
 
             """Guardar version"""
             try:
@@ -285,9 +302,9 @@ class WBC28:  # clase del código
             .pause(1) \
             .release()
         action.perform()
-        Log().info(" Se actualiza la BD de la nueva versión")
+        Log().info(boton_actualizar_bd)
 
-    except ElementNotInteractableException as e:
+    except ElementNotInteractableException as e:  # pragma: no cover
         Log().error(f"No se pudo interactuar con el botón de actualizar BD: {e}")
 
     # Intentamos hacer clic en el botón para aceptar la actualización
@@ -305,15 +322,15 @@ class WBC28:  # clase del código
             .release()
         action.perform()
         time.sleep(5)
-        Log().info(" Se acepta la actualización de la BD de la nueva versión")
+        Log().info(aceptar_actualizacion_bd)
 
         """Detectar la ventana 1 de navegador (actualizacion)"""
         try:
             time.sleep(2)
             driver.switch_to.window(driver.window_handles[1])
             time.sleep(1)
-        except TimeoutException as e:
-            Log().error("No se pudo cambiar a la ventana de PowerStreet")
+        except TimeoutException as e:  # pragma: no cover
+            Log().error(no_cambio_pwst)
 
         # Esperar que la página cargue completamente
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
@@ -323,7 +340,8 @@ class WBC28:  # clase del código
 
         # *Verificar si hay un error 403*
         if "403" in contenido_pagina or "Forbidden" in contenido_pagina:
-            Log().error(f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/dbupdate.ashx on this server.")
+            Log().error(f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/"
+                        f"dbupdate.ashx on this server.")
             # actual = driver.current_url
             # titulo = driver.title
             # print("Página:", actual)
@@ -334,15 +352,15 @@ class WBC28:  # clase del código
                 time.sleep(2)
                 driver.switch_to.window(driver.window_handles[0])
                 time.sleep(1)
-            except TimeoutException as e:
-                Log().error("No se pudo cambiar a la ventana de PowerStreet")
+            except TimeoutException as e:  # pragma: no cover
+                Log().error(no_cambio_pwst)
 
             try:
                 cerrar_pantalla = WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.XPATH, Configuracion.btn_cerrar_pantalla_wc)))
                 cerrar_pantalla.click()
                 time.sleep(1)
-            except Exception as e:
+            except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudo cerrar la ventana de versiones: {e}")
                 raise
             """Actualizar nuevamente la siguiente versión nuevamente"""
@@ -361,7 +379,7 @@ class WBC28:  # clase del código
                 #   BuscarUsuario.send_keys(Configuracion.id_usuario) #-> Configuración Web client ( awsqa)
                 buscar_usuario_wbc2.send_keys(Configuracion.buscar_v4)  # -> Configuración assist
                 buscar_usuario_wbc2.send_keys(Keys.ENTER)
-                Log().info(" Se busca la versión 4 en el sistema")
+                Log().info(buscar_v4)
                 time.sleep(1)
 
             except Exception as e:  # pragma: no cover
@@ -375,7 +393,7 @@ class WBC28:  # clase del código
 
                 for elem in versiones:
                     texto = elem.text.strip()
-                    match = re.search(r'\b\d+\.\d+\.\d+\.\d+\b', texto)
+                    match = re.search(buscar_version, texto)
                     if match:
                         version = match.group()
                         Log().info(f" Versión encontrada: {version}")
@@ -384,7 +402,7 @@ class WBC28:  # clase del código
                     # Encontrar la versión más alta
                     try:
                         ultima_version = max(todas_las_versiones, key=lambda v: [int(x) for x in v.split(".")])
-                    except Exception as e:
+                    except Exception as e:  # pragma: no cover
                         Log().info(f"Error al calcular la versión más alta: {str(e)}")
                         ultima_version = None
 
@@ -407,7 +425,7 @@ class WBC28:  # clase del código
                                 .pause(1) \
                                 .release()
                             action.perform()
-                            Log().info(" Se presiona el boton 'Nuevo', para crear una nueva versión.")
+                            Log().info(crear_version)
 
                         except ElementNotInteractableException as e:  # pragma: no cover
                             Log().error(f"No se pudo interactuar con el botón y crear uno nuevo: {e}")
@@ -447,7 +465,7 @@ class WBC28:  # clase del código
                                 EC.presence_of_element_located((By.XPATH, Configuracion.btn_guardar)))
                             guardar_registro_wbc28.click()
                             time.sleep(1)
-                        except Exception as e:
+                        except Exception as e:  # pragma: no cover
                             Log().error(f"No se pudo guardar correctamente la versión {e}")
                             raise
                         try:
@@ -455,11 +473,11 @@ class WBC28:  # clase del código
                                 EC.presence_of_element_located((By.XPATH, Configuracion.btn_cerrar_pantalla_wc)))
                             cerrar_pantalla_wbc28.click()
                             time.sleep(1)
-                        except Exception as e:
+                        except Exception as e:  # pragma: no cover
                             Log().error(f"No se pudo cerrar la ventana de versiones {e}")
                             raise
                     else:
-                        print("No se encontraron números en la página.")
+                        print(no_numeros)
 
             except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudieron ingresar los datos de la versión, se debe al error: {e}")
@@ -479,7 +497,7 @@ class WBC28:  # clase del código
                 buscar_usuario_wbc2 = wait.until(EC.presence_of_element_located((By.XPATH, Configuracion.campo_buscar)))
                 buscar_usuario_wbc2.send_keys(Configuracion.grupo_v4)  # -> Configuración assist
                 buscar_usuario_wbc2.send_keys(Keys.ENTER)
-                Log().info(" Se busca la versión 4 con pex en el sistema")
+                Log().info(buscar_v4_base)
                 time.sleep(1)
 
             except Exception as e:  # pragma: no cover
@@ -495,9 +513,9 @@ class WBC28:  # clase del código
                     .pause(1) \
                     .release()
                 action.perform()
-                Log().info(" Ingresa al código pex.")
+                Log().info(ingreso_pex)
                 time.sleep(1)
-            except Exception as e:
+            except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudo abrir el grupo de pex para la versión 4, {e}")
                 raise
 
@@ -512,9 +530,9 @@ class WBC28:  # clase del código
                     .pause(1) \
                     .release()
                 action.perform()
-                Log().info(" Ingresa al menú Servidor y Versión.")
+                Log().info(servidor_version_menu)
                 time.sleep(1)
-            except Exception as e:
+            except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudo dar click en el manú Servidor y Versión {e}")
 
             try:
@@ -527,9 +545,9 @@ class WBC28:  # clase del código
                     .pause(1) \
                     .release()
                 action.perform()
-                Log().info(" Se dio click correctamente en el desplegable")
+                Log().info(click_desplegable)
                 time.sleep(1)
-            except Exception as e:
+            except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudo abrir el desplegable para cambiar a la versión más reciente, {e}")
                 raise
 
@@ -539,25 +557,23 @@ class WBC28:  # clase del código
 
                 for elem in version_actual:
                     texto = elem.text.strip()
-                    match = re.search(r'\b4\.0\.0\.\d+\b', texto)
+                    match = re.search(buscarversion4, texto)
                     if match:
                         Log().info(f" Versión actual: {version}")
-                        # ultima_version = version  # Guardamos la última versión encontrada
                         todas_las_versiones.append(version)  # Aseguramos que sean strings
 
                         # Encontrar la versión más alta
                         try:
                             ultima_version = max(todas_las_versiones, key=lambda v: [int(x) for x in v.split(".")])
-                            element = driver.find_element(By.XPATH,
-                                                          "//option[@value='5.0.0.50']/preceding-sibling::option[1]")
+                            element = driver.find_element(By.XPATH, Configuracion.ultima_v4)
                             element.click()
                             Log().info(f" Nueva versión creada: {nueva_version}")
 
-                        except Exception as e:
+                        except Exception as e:  # pragma: no cover
                             Log().info(f"Error al calcular la versión más alta: {str(e)}")
                             ultima_version = None
                     else:
-                        Log().error("No se encontraron versiones en el desplegable")
+                        Log().error(no_versiones)
 
                     """Guardar version"""
                     try:
@@ -585,9 +601,9 @@ class WBC28:  # clase del código
                     .pause(1) \
                     .release()
                 action.perform()
-                Log().info(" Se actualiza la BD de la nueva versión")
+                Log().info(boton_actualizar_bd)
 
-            except ElementNotInteractableException as e:
+            except ElementNotInteractableException as e:  # pragma: no cover
                 Log().error(f"No se pudo interactuar con el botón de actualizar BD: {e}")
 
             # Intentamos hacer clic en el botón para aceptar la actualización
@@ -605,15 +621,15 @@ class WBC28:  # clase del código
                     .release()
                 action.perform()
                 time.sleep(5)
-                Log().info(" Se acepta la actualización de la BD de la nueva versión")
+                Log().info(aceptar_actualizacion_bd)
 
                 """Detectar la ventana 1 de navegador (actualizacion)"""
                 try:
                     time.sleep(2)
                     driver.switch_to.window(driver.window_handles[1])
                     time.sleep(1)
-                except TimeoutException as e:
-                    Log().error("No se pudo cambiar a la ventana de PowerStreet")
+                except TimeoutException as e:  # pragma: no cover
+                    Log().error(no_cambio_pwst)
 
                 # Esperar que la página cargue completamente
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
@@ -624,7 +640,8 @@ class WBC28:  # clase del código
                 # *Verificar si hay un error 403*
                 if "403" in contenido_pagina or "Forbidden" in contenido_pagina:
                     Log().error(
-                        f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/dbupdate.ashx on this server.")
+                        f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/"
+                        f"dbupdate.ashx on this server.")
 
                     """SEGUNDA VEZ QUE REGRESA A LA VERSION CORRECTA"""
                     """Regresar a la ventana PowerStreet"""
@@ -632,15 +649,15 @@ class WBC28:  # clase del código
                         time.sleep(2)
                         driver.switch_to.window(driver.window_handles[0])
                         time.sleep(1)
-                    except TimeoutException as e:
-                        Log().error("No se pudo cambiar a la ventana de PowerStreet")
+                    except TimeoutException as e:  # pragma: no cover
+                        Log().error(no_cambio_pwst)
 
                     try:
                         cerrar_pantalla = WebDriverWait(driver, 10).until(
                             EC.presence_of_element_located((By.XPATH, Configuracion.btn_cerrar_pantalla_wc)))
                         cerrar_pantalla.click()
                         time.sleep(1)
-                    except Exception as e:
+                    except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudo cerrar la ventana de versiones: {e}")
                         raise
                     """Actualizar nuevamente la siguiente versión nuevamente"""
@@ -661,7 +678,7 @@ class WBC28:  # clase del código
                         #   BuscarUsuario.send_keys(Configuracion.id_usuario) #-> Configuración Web client ( awsqa)
                         buscar_usuario_wbc2.send_keys(Configuracion.buscar_v4)  # -> Configuración assist
                         buscar_usuario_wbc2.send_keys(Keys.ENTER)
-                        Log().info(" Se busca la versión 4 en el sistema")
+                        Log().info(buscar_v4)
                         time.sleep(1)
 
                     except Exception as e:  # pragma: no cover
@@ -675,7 +692,7 @@ class WBC28:  # clase del código
 
                         for elem in versiones:
                             texto = elem.text.strip()
-                            match = re.search(r'\b\d+\.\d+\.\d+\.\d+\b', texto)
+                            match = re.search(buscar_version, texto)
                             if match:
                                 version = match.group()
                                 Log().info(f" Versión encontrada: {version}")
@@ -684,7 +701,7 @@ class WBC28:  # clase del código
                             # Encontrar la versión más alta
                             try:
                                 ultima_version = max(todas_las_versiones, key=lambda v: [int(x) for x in v.split(".")])
-                            except Exception as e:
+                            except Exception as e:  # pragma: no cover
                                 Log().info(f"Error al calcular la versión más alta: {str(e)}")
                                 ultima_version = None
 
@@ -707,7 +724,7 @@ class WBC28:  # clase del código
                                         .pause(1) \
                                         .release()
                                     action.perform()
-                                    Log().info(" Se presiona el boton 'Nuevo', para crear una nueva versión.")
+                                    Log().info(crear_version)
 
                                 except ElementNotInteractableException as e:  # pragma: no cover
                                     Log().error(f"No se pudo interactuar con el botón y crear uno nuevo: {e}")
@@ -748,7 +765,7 @@ class WBC28:  # clase del código
                                         EC.presence_of_element_located((By.XPATH, Configuracion.btn_guardar)))
                                     guardar_registro_wbc28.click()
                                     time.sleep(1)
-                                except Exception as e:
+                                except Exception as e:  # pragma: no cover
                                     Log().error(f"No se pudo guardar correctamente la versión {e}")
                                     raise
                                 try:
@@ -757,11 +774,11 @@ class WBC28:  # clase del código
                                             (By.XPATH, Configuracion.btn_cerrar_pantalla_wc)))
                                     cerrar_pantalla_wbc28.click()
                                     time.sleep(1)
-                                except Exception as e:
+                                except Exception as e:  # pragma: no cover
                                     Log().error(f"No se pudo cerrar la ventana de versiones {e}")
                                     raise
                             else:
-                                print("No se encontraron números en la página.")
+                                print(no_numeros)
 
                     except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudieron ingresar los datos de la versión, se debe al error: {e}")
@@ -782,7 +799,7 @@ class WBC28:  # clase del código
                             EC.presence_of_element_located((By.XPATH, Configuracion.campo_buscar)))
                         buscar_usuario_wbc2.send_keys(Configuracion.grupo_v4)  # -> Configuración assist
                         buscar_usuario_wbc2.send_keys(Keys.ENTER)
-                        Log().info(" Se busca la versión 4 con pex en el sistema")
+                        Log().info(buscar_v4_base)
                         time.sleep(1)
 
                     except Exception as e:  # pragma: no cover
@@ -798,9 +815,9 @@ class WBC28:  # clase del código
                             .pause(1) \
                             .release()
                         action.perform()
-                        Log().info(" Ingresa al código pex.")
+                        Log().info(ingreso_pex)
                         time.sleep(1)
-                    except Exception as e:
+                    except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudo abrir el grupo de pex para la versión 4, {e}")
                         raise
 
@@ -815,9 +832,9 @@ class WBC28:  # clase del código
                             .pause(1) \
                             .release()
                         action.perform()
-                        Log().info(" Ingresa al menú Servidor y Versión.")
+                        Log().info(servidor_version_menu)
                         time.sleep(1)
-                    except Exception as e:
+                    except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudo dar click en el manú Servidor y Versión {e}")
 
                     try:
@@ -830,9 +847,9 @@ class WBC28:  # clase del código
                             .pause(1) \
                             .release()
                         action.perform()
-                        Log().info(" Se dio click correctamente en el desplegable")
+                        Log().info(click_desplegable)
                         time.sleep(1)
-                    except Exception as e:
+                    except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudo abrir el desplegable para cambiar a la versión más reciente, {e}")
                         raise
 
@@ -842,26 +859,24 @@ class WBC28:  # clase del código
 
                         for elem in version_actual:
                             texto = elem.text.strip()
-                            match = re.search(r'\b4\.0\.0\.\d+\b', texto)
+                            match = re.search(buscarversion4, texto)
                             if match:
                                 Log().info(f" Versión actual: {version}")
-                                # ultima_version = version  # Guardamos la última versión encontrada
                                 todas_las_versiones.append(version)  # Aseguramos que sean strings
 
                                 # Encontrar la versión más alta
                                 try:
                                     ultima_version = max(todas_las_versiones,
                                                          key=lambda v: [int(x) for x in v.split(".")])
-                                    element = driver.find_element(By.XPATH,
-                                                                  "//option[@value='5.0.0.50']/preceding-sibling::option[1]")
+                                    element = driver.find_element(By.XPATH, Configuracion.ultima_v4)
                                     element.click()
                                     Log().info(f" Nueva versión creada: {nueva_version}")
 
-                                except Exception as e:
+                                except Exception as e:  # pragma: no cover
                                     Log().info(f"Error al calcular la versión más alta: {str(e)}")
                                     ultima_version = None
                             else:
-                                Log().error("No se encontraron versiones en el desplegable")
+                                Log().error(no_versiones)
 
                             """Guardar version"""
                             try:
@@ -889,9 +904,9 @@ class WBC28:  # clase del código
                             .pause(1) \
                             .release()
                         action.perform()
-                        Log().info(" Se actualiza la BD de la nueva versión")
+                        Log().info(boton_actualizar_bd)
 
-                    except ElementNotInteractableException as e:
+                    except ElementNotInteractableException as e:  # pragma: no cover
                         Log().error(f"No se pudo interactuar con el botón de actualizar BD: {e}")
 
                     # Intentamos hacer clic en el botón para aceptar la actualización
@@ -909,15 +924,15 @@ class WBC28:  # clase del código
                             .release()
                         action.perform()
                         time.sleep(5)
-                        Log().info(" Se acepta la actualización de la BD de la nueva versión")
+                        Log().info(aceptar_actualizacion_bd)
 
                         """Detectar la ventana 1 de navegador (actualizacion)"""
                         try:
                             time.sleep(2)
                             driver.switch_to.window(driver.window_handles[1])
                             time.sleep(1)
-                        except TimeoutException as e:
-                            Log().error("No se pudo cambiar a la ventana de PowerStreet")
+                        except TimeoutException as e:  # pragma: no cover
+                            Log().error(no_cambio_pwst)
 
                         # Esperar que la página cargue completamente
                         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
@@ -928,24 +943,21 @@ class WBC28:  # clase del código
                         # *Verificar si hay un error 403*
                         if "403" in contenido_pagina or "Forbidden" in contenido_pagina:
                             Log().error(
-                                f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/dbupdate.ashx on this server.")
-                            Log().error(
-                                "Se encuentra un error en la base, ya que no permite actualizar la base de datos correctamente")
+                                f"ERROR 403 DETECTADO: You don't have permission to access /{nueva_version}/"
+                                f"dbupdate.ashx on this server.")
+                            Log().error("Se encuentra un error en la base, ya que no permite actualizar "
+                                        "la base de datos correctamente")
                             # Cerrar navegador
                             driver.quit()
                         else:
-                            # actual = driver.current_url
-                            # titulo = driver.title
-                            # print("Página:", actual)
-                            # print("Titulo: ", titulo)
-                            Log().info("No se detectó bloqueo de acceso, se continúa con la validación.")
+                            Log().info(sin_403)
 
                             try:
                                 finalizado_texto = WebDriverWait(driver, 30).until(
                                     EC.presence_of_element_located((By.XPATH, "//onresults[text()='Finalizado ']")))
-                                Log().info("Actualización de la base de datos finalizada con éxito")
-                            except:
-                                Log().error("No se encontró un mensaje de 'Finalizado'.")
+                                Log().info(actualizacion_bd_finalizada)
+                            except Exception as e:  # pragma: no cover
+                                Log().error(f"No se encontró un mensaje de 'Finalizado': {e}")
 
                             # Buscar errores en la actualización
                             try:
@@ -956,35 +968,31 @@ class WBC28:  # clase del código
                                     EC.presence_of_element_located((By.XPATH, "//onresults/error-count")))
                                 error_text = error_count_element.text
 
-                                match = re.search(r"(\d+) errores", error_text)
+                                match = re.search(num_errores, error_text)
                                 errores = int(match.group(1)) if match else 0
 
                                 if errores > 0:
                                     Log().warning(f"La base de datos se actualizó pero con {errores} errores.")
                                 else:
-                                    Log().info("La base de datos se actualizó sin errores.")
-                            except Exception as e:
+                                    Log().info(sin_errores)
+                            except Exception as e:  # pragma: no cover
                                 Log().error(
                                     f"No se pudo obtener el estado de la actualización de la base de datos: {e}")
                                 raise
                             # Cerrar navegador
                             driver.quit()
 
-                    except ElementNotInteractableException as e:
+                    except ElementNotInteractableException as e:  # pragma: no cover
                         Log().error(f"No se pudo interactuar con el botón de aceptación para actualizar BD: {e}")
                 else:
-                    # actual = driver.current_url
-                    # titulo = driver.title
-                    # print("Página:", actual)
-                    # print("Titulo: ", titulo)
-                    Log().info("No se detectó bloqueo de acceso, se continúa con la validación.")
+                    Log().info(sin_403)
 
                     try:
                         finalizado_texto = WebDriverWait(driver, 30).until(
                             EC.presence_of_element_located((By.XPATH, "//onresults[text()='Finalizado ']")))
-                        Log().info("Actualización de la base de datos finalizada con éxito")
-                    except:
-                        Log().error("No se encontró un mensaje de 'Finalizado'.")
+                        Log().info(actualizacion_bd_finalizada)
+                    except Exception:  # pragma: no cover
+                        Log().error(sin_msg_finalizado)
 
                     # Buscar errores en la actualización
                     try:
@@ -994,54 +1002,51 @@ class WBC28:  # clase del código
                             EC.presence_of_element_located((By.XPATH, "//onresults/error-count")))
                         error_text = error_count_element.text
 
-                        match = re.search(r"(\d+) errores", error_text)
+                        match = re.search(num_errores, error_text)
                         errores = int(match.group(1)) if match else 0
 
                         if errores > 0:
                             Log().warning(f"La base de datos se actualizó pero con {errores} errores.")
                         else:
-                            Log().info("La base de datos se actualizó sin errores.")
-                    except Exception as e:
+                            Log().info(sin_errores)
+                    except Exception as e:  # pragma: no cover
                         Log().error(f"No se pudo obtener el estado de la actualización de la base de datos: {e}")
                         raise
                     # Cerrar navegador
                     driver.quit()
 
-            except ElementNotInteractableException as e:
+            except ElementNotInteractableException as e:  # pragma: no cover
                 Log().error(f"No se pudo interactuar con el botón de aceptación para actualizar BD: {e}")
         else:
-            # actual = driver.current_url
-            # titulo = driver.title
-            # print("Página:", actual)
-            # print("Titulo: ", titulo)
-            Log().info("No se detectó bloqueo de acceso, se continúa con la validación.")
+            Log().info(sin_403)
 
             try:
-                finalizado_texto = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "//onresults[text()='Finalizado ']")))
-                Log().info("Actualización de la base de datos finalizada con éxito")
-            except:
-                Log().error("No se encontró un mensaje de 'Finalizado'.")
+                finalizado_texto = WebDriverWait(driver, 30).until(EC.presence_of_element_located((
+                    By.XPATH, Configuracion.finalizado)))
+                Log().info(actualizacion_bd_finalizada)
+            except Exception:  # pragma: no cover
+                Log().error(sin_msg_finalizado)
 
             # Buscar errores en la actualización
             try:
-                WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "//onresults")))
+                WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, Configuracion.results)))
 
                 error_count_element = WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.XPATH, "//onresults/error-count")))
+                    EC.presence_of_element_located((By.XPATH, Configuracion.error_count)))
                 error_text = error_count_element.text
 
-                match = re.search(r"(\d+) errores", error_text)
+                match = re.search(num_errores, error_text)
                 errores = int(match.group(1)) if match else 0
 
                 if errores > 0:
                     Log().warning(f"La base de datos se actualizó pero con {errores} errores.")
                 else:
-                    Log().info("La base de datos se actualizó sin errores.")
-            except Exception as e:
+                    Log().info(sin_errores)
+            except Exception as e:  # pragma: no cover
                 Log().error(f"No se pudo obtener el estado de la actualización de la base de datos: {e}")
                 raise
             # Cerrar navegador
             driver.quit()
 
-    except ElementNotInteractableException as e:
+    except ElementNotInteractableException as e:  # pragma: no cover
         Log().error(f"No se pudo interactuar con el botón de aceptación para actualizar BD: {e}")

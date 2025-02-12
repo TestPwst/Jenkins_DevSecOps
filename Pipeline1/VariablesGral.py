@@ -508,6 +508,12 @@ class Configuracion:
     menu_desplegable_serv_version = "//select[@name='_ClickOnceVersion']"
     actualizar_base_version = "//span[@class='ui-icon ui-icon-check']"
     aceptar_bd = "//button[text()='Si']"
+    error_count = "//onresults/error-count"
+    results = "//onresults"
+    finalizado = "//onresults[text()='Finalizado ']"
+    ultima_v4 = "//option[@value='5.0.0.50']/preceding-sibling::option[1]"
+    ultima_v5 ="//option[@value='6.0.0.0']/preceding-sibling::option[1]"
+    ultima_v6 = "//option[@value='999.0.0.46']/preceding-sibling::option[1]"
 
     # ***************************************** Variables VCR *******************************************************
 
