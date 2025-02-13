@@ -1,0 +1,45 @@
+2025-02-13 16:16:27,182 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-13 16:16:29,474 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-13 16:16:30,598 - root - INFO -  Versión encontrada: 5.0.0.53
+2025-02-13 16:16:30,599 - root - ERROR - No se pudieron ingresar los datos de la versión, se debe al error: name 'nueva_version' is not defined
+2025-02-13 16:19:25,334 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-13 16:19:27,635 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-13 16:19:28,901 - root - INFO -  Versión encontrada: 5.0.0.53
+2025-02-13 16:19:28,934 - root - INFO -  Nueva versión creada: 5.0.0.54
+2025-02-13 16:19:31,747 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-13 16:19:39,515 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-13 16:19:43,139 - root - INFO -  Ingresa al código pc2.
+2025-02-13 16:19:47,132 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-13 16:19:50,769 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-13 16:19:51,812 - root - INFO -  Versión actual: 5.0.0.53
+2025-02-13 16:19:52,081 - root - INFO -  Nueva versión creada: 5.0.0.54
+2025-02-13 16:19:55,809 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-13 16:20:03,812 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-13 16:20:06,899 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /5.0.0.54/dbupdate.ashx on this server.
+2025-02-13 16:20:12,268 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-13 16:20:13,293 - root - INFO -  Versión encontrada: 5.0.0.54
+2025-02-13 16:20:13,293 - root - INFO -  Nueva versión creada: 5.0.0.55
+2025-02-13 16:20:15,979 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-13 16:20:23,700 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-13 16:20:27,317 - root - INFO -  Ingresa al código pc2.
+2025-02-13 16:20:31,111 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-13 16:20:34,775 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-13 16:20:35,821 - root - INFO -  Versión actual: 5.0.0.54
+2025-02-13 16:20:36,078 - root - INFO -  Nueva versión creada: 5.0.0.55
+2025-02-13 16:20:39,791 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-13 16:20:47,428 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-13 16:20:50,542 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /5.0.0.55/dbupdate.ashx on this server.
+2025-02-13 16:20:55,945 - root - INFO -  Se busca la versión 5 en el sistema
+2025-02-13 16:20:56,998 - root - INFO -  Versión encontrada: 5.0.0.55
+2025-02-13 16:20:57,000 - root - INFO -  Nueva versión creada: 5.0.0.56
+2025-02-13 16:20:59,778 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-13 16:21:07,561 - root - INFO -  Se busca la versión 5 con pc2 en el sistema
+2025-02-13 16:21:11,206 - root - INFO -  Ingresa al código pc2.
+2025-02-13 16:21:15,086 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-13 16:21:18,682 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-13 16:21:19,709 - root - INFO -  Versión actual: 5.0.0.55
+2025-02-13 16:21:19,944 - root - INFO -  Nueva versión creada: 5.0.0.56
+2025-02-13 16:21:23,639 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-13 16:21:31,274 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-13 16:21:34,340 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /5.0.0.56/dbupdate.ashx on this server.
+2025-02-13 16:21:34,341 - root - ERROR - Se encuentra un error en la base, ya que no permite actualizar la base de datos correctamente

@@ -1,0 +1,4 @@
+2025-02-13 10:57:15,275 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-13 10:57:19,775 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-13 10:57:20,832 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-13 10:57:20,864 - root - ERROR - No se pudieron ingresar los datos de la versión, se debe al error: name 'nueva_version' is not defined
