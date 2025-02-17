@@ -343,6 +343,7 @@ class WBC28:  # clase del código
                         f"dbupdate.ashx on this server.")
             """PRIMERA VEZ QUE REGRESA A LA VERSION CORRECTA"""
             """Regresar a la ventana PowerStreet"""
+            driver.close()
             try:
                 time.sleep(2)
                 driver.switch_to.window(driver.window_handles[0])
@@ -480,7 +481,7 @@ class WBC28:  # clase del código
 
             # driver.quit()
 
-            """Abrir grupo y buscar pc2 para 5"""
+            """Abrir grupo y buscar pex para 4"""
             try:
                 grupos_wbc28_2 = wait.until(EC.presence_of_element_located((By.XPATH, Configuracion.btn_grupos)))
                 grupos_wbc28_2.click()
@@ -619,14 +620,21 @@ class WBC28:  # clase del código
                 time.sleep(5)
                 Log().info(aceptar_actualizacion_bd)
 
-                """Detectar la ventana 1 de navegador (actualizacion)"""
+                # actual = driver.current_url
+                # titulo = driver.title
+                # print("PáginaA :", actual)
+                # print("TituloA: ", titulo)
+                # """Detectar la ventana 1 de navegador (actualizacion)"""
                 try:
                     time.sleep(2)
                     driver.switch_to.window(driver.window_handles[1])
                     time.sleep(1)
                 except TimeoutException as e:  # pragma: no cover
                     Log().error(no_cambio_pwst)
-
+                # actual = driver.current_url
+                # titulo = driver.title
+                # print("PáginaD :", actual)
+                # print("TituloD: ", titulo)
                 # Esperar que la página cargue completamente
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
@@ -641,6 +649,7 @@ class WBC28:  # clase del código
 
                     """SEGUNDA VEZ QUE REGRESA A LA VERSION CORRECTA"""
                     """Regresar a la ventana PowerStreet"""
+                    driver.close()
                     try:
                         time.sleep(2)
                         driver.switch_to.window(driver.window_handles[0])
@@ -925,12 +934,20 @@ class WBC28:  # clase del código
                         Log().info(aceptar_actualizacion_bd)
 
                         """Detectar la ventana 1 de navegador (actualizacion)"""
+                        # actual = driver.current_url
+                        # titulo = driver.title
+                        # print("PáginaA :", actual)
+                        # print("TituloA: ", titulo)
                         try:
                             time.sleep(2)
                             driver.switch_to.window(driver.window_handles[1])
                             time.sleep(1)
                         except TimeoutException as e:  # pragma: no cover
                             Log().error(no_cambio_pwst)
+                        # actual = driver.current_url
+                        # titulo = driver.title
+                        # print("PáginaD :", actual)
+                        # print("TituloD: ", titulo)
 
                         # Esperar que la página cargue completamente
                         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
@@ -998,11 +1015,11 @@ class WBC28:  # clase del código
                         WebDriverWait(driver, 30).until(EC.presence_of_element_located((
                             By.XPATH, Configuracion.results)))
 
-                        error_count_element = WebDriverWait(driver, 10).until(
+                        error_count_element_2 = WebDriverWait(driver, 10).until(
                             EC.presence_of_element_located((By.XPATH, Configuracion.error_count)))
-                        error_text = error_count_element.text
+                        error_text_2 = error_count_element_2.text
 
-                        match_5 = re.search(num_errores, error_text)
+                        match_5 = re.search(num_errores, error_text_2)
                         errores_2 = int(match_5.group(1)) if match_5 else 0
 
                         if errores_2 > 0:
@@ -1034,9 +1051,9 @@ class WBC28:  # clase del código
 
                 error_count_element_3 = WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.XPATH, Configuracion.error_count)))
-                error_text = error_count_element_3.text
+                error_text_3 = error_count_element_3.text
 
-                match_6 = re.search(num_errores, error_text)
+                match_6 = re.search(num_errores, error_text_3)
                 errores_3 = int(match_6.group(1)) if match_6 else 0
 
                 if errores_3 > 0:

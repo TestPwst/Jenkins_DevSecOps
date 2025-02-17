@@ -343,6 +343,7 @@ class WBC30:  # clase del código
                         f"dbupdate.ashx on this server.")
             """PRIMERA VEZ QUE REGRESA A LA VERSION CORRECTA"""
             """Regresar a la ventana PowerStreet"""
+            driver.close()
             try:
                 time.sleep(2)
                 driver.switch_to.window(driver.window_handles[0])
@@ -640,6 +641,7 @@ class WBC30:  # clase del código
                         f"dbupdate.ashx on this server.")
                     """SEGUNDA VEZ QUE REGRESA A LA VERSION CORRECTA"""
                     """Regresar a la ventana PowerStreet"""
+                    driver.close()
                     try:
                         time.sleep(2)
                         driver.switch_to.window(driver.window_handles[0])

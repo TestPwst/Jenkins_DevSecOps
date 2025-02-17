@@ -1,0 +1,117 @@
+2025-02-17 09:11:16,779 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-17 09:11:18,694 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:11:19,752 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-17 09:11:19,819 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:11:22,400 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:11:30,579 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:11:34,706 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:11:38,535 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:11:42,205 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:11:43,226 - root - INFO -  Versión actual: 4.0.0.40
+2025-02-17 09:11:43,510 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:11:47,642 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:11:55,494 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:12:00,356 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.41/dbupdate.ashx on this server.
+2025-02-17 09:12:05,742 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:12:06,795 - root - INFO -  Versión encontrada: 4.0.0.41
+2025-02-17 09:12:06,796 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-17 09:12:09,391 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:12:18,035 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:12:21,782 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:12:25,387 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:12:29,073 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:12:30,583 - root - INFO -  Versión actual: 4.0.0.41
+2025-02-17 09:12:30,650 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-17 09:12:34,825 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:12:42,519 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:12:45,696 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.42/dbupdate.ashx on this server.
+2025-02-17 09:12:51,184 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:12:52,242 - root - INFO -  Versión encontrada: 4.0.0.42
+2025-02-17 09:12:52,242 - root - INFO -  Nueva versión creada: 4.0.0.43
+2025-02-17 09:12:54,820 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:13:02,898 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:13:06,592 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:13:10,204 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:13:13,886 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:13:14,935 - root - INFO -  Versión actual: 4.0.0.42
+2025-02-17 09:13:15,238 - root - INFO -  Nueva versión creada: 4.0.0.43
+2025-02-17 09:13:19,170 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:13:26,886 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:13:30,102 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.43/dbupdate.ashx on this server.
+2025-02-17 09:13:30,102 - root - ERROR - Se encuentra un error en la base, ya que no permite actualizar la base de datos correctamente
+2025-02-17 09:35:35,426 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-17 09:35:38,943 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:35:40,009 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-17 09:35:40,009 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:35:42,612 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:35:50,386 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:35:54,510 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:35:58,116 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:36:01,788 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:36:02,839 - root - INFO -  Versión actual: 4.0.0.40
+2025-02-17 09:36:03,096 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:36:06,943 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:36:14,793 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:36:31,360 - root - INFO - No se detectó bloqueo de acceso, se continúa con la validación.
+2025-02-17 09:36:31,376 - root - INFO - Actualización de la base de datos finalizada con éxito
+2025-02-17 09:36:31,406 - root - WARNING - La base de datos se actualizó pero con 1 errores.
+2025-02-17 09:47:30,780 - root - INFO -  Se valida que el ingreso al sistema es correcto
+2025-02-17 09:47:34,846 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:47:35,877 - root - INFO -  Versión encontrada: 4.0.0.40
+2025-02-17 09:47:35,877 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:47:38,457 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:47:46,199 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:47:49,933 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:47:53,728 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:47:57,406 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:47:58,456 - root - INFO -  Versión actual: 4.0.0.40
+2025-02-17 09:47:58,712 - root - INFO -  Nueva versión creada: 4.0.0.41
+2025-02-17 09:48:02,430 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:48:10,141 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:48:13,228 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.41/dbupdate.ashx on this server.
+2025-02-17 09:48:18,688 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:48:19,742 - root - INFO -  Versión encontrada: 4.0.0.41
+2025-02-17 09:48:19,743 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-17 09:48:22,544 - root - INFO -  Se presiona el boton 'Nuevo', para crear una nueva versión.
+2025-02-17 09:48:30,245 - root - INFO -  Se busca la versión 4 con pex en el sistema
+2025-02-17 09:48:34,042 - root - INFO -  Ingresa al código pex.
+2025-02-17 09:48:37,663 - root - INFO -  Ingresa al menú Servidor y Versión.
+2025-02-17 09:48:41,333 - root - INFO -  Se dio click correctamente en el desplegable
+2025-02-17 09:48:42,379 - root - INFO -  Versión actual: 4.0.0.41
+2025-02-17 09:48:42,638 - root - INFO -  Nueva versión creada: 4.0.0.42
+2025-02-17 09:48:46,354 - root - INFO -  Se actualiza la BD de la nueva versión
+2025-02-17 09:48:54,044 - root - INFO -  Se acepta la actualización de la BD de la nueva versión
+2025-02-17 09:48:57,154 - root - ERROR - ERROR 403 DETECTADO: You don't have permission to access /4.0.0.42/dbupdate.ashx on this server.
+2025-02-17 09:49:02,534 - root - INFO -  Se busca la versión 4 en el sistema
+2025-02-17 09:49:03,601 - root - INFO -  Versión encontrada: 4.0.0.42
+2025-02-17 09:49:03,602 - root - INFO -  Nueva versión creada: 4.0.0.43
+2025-02-17 09:49:08,510 - root - ERROR - No se pudieron ingresar los datos de la versión, se debe al error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF62E4F6F15+28773]
+	(No symbol) [0x00007FF62E462600]
+	(No symbol) [0x00007FF62E2F8FAA]
+	(No symbol) [0x00007FF62E2E53C1]
+	(No symbol) [0x00007FF62E2E532C]
+	(No symbol) [0x00007FF62E2E3A91]
+	(No symbol) [0x00007FF62E2E45CC]
+	(No symbol) [0x00007FF62E2E2DD6]
+	(No symbol) [0x00007FF62E30649E]
+	(No symbol) [0x00007FF62E3ABACD]
+	(No symbol) [0x00007FF62E37724A]
+	(No symbol) [0x00007FF62E39F6F3]
+	(No symbol) [0x00007FF62E377023]
+	(No symbol) [0x00007FF62E33FF5E]
+	(No symbol) [0x00007FF62E3411E3]
+	GetHandleVerifier [0x00007FF62E84425D+3490733]
+	GetHandleVerifier [0x00007FF62E85BA43+3586963]
+	GetHandleVerifier [0x00007FF62E85147D+3544525]
+	GetHandleVerifier [0x00007FF62E5BC9DA+838442]
+	(No symbol) [0x00007FF62E46D04F]
+	(No symbol) [0x00007FF62E469614]
+	(No symbol) [0x00007FF62E4697B6]
+	(No symbol) [0x00007FF62E458CE9]
+	BaseThreadInitThunk [0x00007FFDCD747374+20]
+	RtlUserThreadStart [0x00007FFDCEA3CC91+33]
+
