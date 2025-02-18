@@ -1,0 +1,60 @@
+2025-02-18 10:57:48,968 - root - INFO - Se ingresó el usuario y contraseña correspondiente a la prueba para ingresar a la base
+2025-02-18 10:58:07,139 - root - INFO - Se hace el ingreso correcto a la base y se visualiza la pantalla principal de PWST 2.0
+2025-02-18 10:58:17,192 - root - ERROR - No se pudo cambiar cerrar la sesión activa, favor de validar el error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF703556F15+28773]
+	(No symbol) [0x00007FF7034C2600]
+	(No symbol) [0x00007FF703358FAA]
+	(No symbol) [0x00007FF7033AF286]
+	(No symbol) [0x00007FF7033AF4BC]
+	(No symbol) [0x00007FF703402A27]
+	(No symbol) [0x00007FF7033D728F]
+	(No symbol) [0x00007FF7033FF6F3]
+	(No symbol) [0x00007FF7033D7023]
+	(No symbol) [0x00007FF70339FF5E]
+	(No symbol) [0x00007FF7033A11E3]
+	GetHandleVerifier [0x00007FF7038A425D+3490733]
+	GetHandleVerifier [0x00007FF7038BBA43+3586963]
+	GetHandleVerifier [0x00007FF7038B147D+3544525]
+	GetHandleVerifier [0x00007FF70361C9DA+838442]
+	(No symbol) [0x00007FF7034CD04F]
+	(No symbol) [0x00007FF7034C9614]
+	(No symbol) [0x00007FF7034C97B6]
+	(No symbol) [0x00007FF7034B8CE9]
+	BaseThreadInitThunk [0x00007FFDCD747374+20]
+	RtlUserThreadStart [0x00007FFDCEA3CC91+33]
+
+2025-02-18 10:58:21,350 - root - INFO - Se ingresa al menú Tablas
+2025-02-18 10:58:23,668 - root - INFO - Se ingresó al menú Articulos
+2025-02-18 10:58:33,820 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:58:35,189 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-18 10:58:42,817 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:58:44,172 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-18 10:58:51,858 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:58:53,174 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-18 10:59:02,759 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2025-02-18 10:59:03,725 - root - INFO - Ingresa a la pantalla de precios para realizar validación
+2025-02-18 10:59:09,707 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:59:11,645 - root - INFO -  Se encontro y se dio clic en el filtro deseado
+2025-02-18 10:59:13,021 - root - INFO -  Se encontro y se dio clic en el filtro deseado
+2025-02-18 10:59:14,151 - root - INFO -  Ingresa el codigo de la lista de precios
+2025-02-18 10:59:15,275 - root - INFO -  Se presiona el boton 'Refrescar', para mostrar la informacion filtrada.
+2025-02-18 10:59:17,993 - root - INFO - Se realiza la validación del precio del artículo FA01001 en la pantalla precios
+2025-02-18 10:59:20,723 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:59:22,990 - root - INFO -  Ingresa el codigo del articulo 
+2025-02-18 10:59:28,022 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar pantalla de documentos emitidos.
+2025-02-18 10:59:30,024 - root - INFO -  Se presiona el boton 'Cerrar', para cerrar la ventana
+2025-02-18 10:59:33,350 - root - INFO -  Abre la pantalla del reporte Stock Valorizado por Deposito 
+2025-02-18 10:59:37,461 - root - INFO -  Ingresa el almacen 
+2025-02-18 10:59:37,806 - root - INFO -  Se presiona el boton 'Ver', para mostrar la informacion del reporte.
+2025-02-18 10:59:42,869 - root - INFO - El stock inicial de los articulos es:     Codigo     Saldo
+0  FA01003  49901.00
+1  FA03007   9828.00
+2  FA03022   9836.00
+2025-02-18 10:59:49,949 - root - INFO - Se agregar al cliente 0010051428 para realizar la venta de contado por packing
+2025-02-18 10:59:51,242 - root - INFO - Se ingresa la observación al documento
+2025-02-18 10:59:52,481 - root - INFO - Se ingresa la observación al documento
+2025-02-18 10:59:54,197 - root - INFO -  Ingresa articulo 1
+2025-02-18 10:59:55,260 - root - INFO - El precio unitario está en pantalla
+2025-02-18 10:59:57,462 - root - INFO -  Ingresa la cantidad del articulo 
+2025-02-18 10:59:58,590 - root - INFO -  Se presiona el boton 'Aceptar', para ingresar el articulo y la cantidad.

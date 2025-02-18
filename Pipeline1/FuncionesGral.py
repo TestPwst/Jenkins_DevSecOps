@@ -205,6 +205,86 @@ class funciones:
             driver.quit()
             return False
 
+    def validar_atributo_precio(self):
+        try:
+            try:
+                # AtributoPrecio = self.driver.find_elements(By.XPATH, Configuracion.precio_venta).is_displayed()
+                atributo_precio = WebDriverWait(driver, 4).until(
+                    EC.presence_of_element_located((By.XPATH, Configuracion.precio_venta)))
+
+                if atributo_precio.is_displayed():
+                    Log().info("El precio unitario está en pantalla")
+
+            except Exception as e:  # pragma: no cover
+                Log().error(f"No se encontro el XAPTH atributo precio, validar el error: {e}")
+                # Configura el atributo
+                try:
+                    agrega_atributo = wait.until(
+                        EC.presence_of_element_located((By.XPATH, Configuracion.btn_atributos)))
+                    time.sleep(1)
+                    agrega_atributo.click()
+                    time.sleep(1)
+
+                    atributo_precio_unitario = wait.until(
+                        EC.presence_of_element_located((By.XPATH, Configuracion.atributo_precio)))
+                    time.sleep(1)
+                    atributo_precio_unitario.click()
+                    time.sleep(1)
+
+                    cerrar_atributo = wait.until(EC.presence_of_element_located((By.XPATH, Configuracion.btn_aceptar2)))
+                    time.sleep(1)
+                    cerrar_atributo.click()
+                    time.sleep(1)
+                    # Log().info("Se agrega el atributo precio unitario")
+
+                except Exception as e:  # pragma: no cover
+                    Log().error(f"No se logro agregar el atributo precio unitario, error {e}")
+                    pass
+
+        except Exception as e:  # pragma: no cover
+            Log().error(f"No se encontró el atributo precio unitario, validar el error: {e}")
+            time.sleep(2)
+            driver.quit()
+            return False
+
+    def validar_atributo_descuento(self):
+        # Verifica si tiene el atributo Descuento
+        try:
+            try:
+                # AtributoPrecio = self.driver.find_elements(By.XPATH, Configuracion.precio_venta).is_displayed()
+                AtributoDescuento = WebDriverWait(driver, 4).until(
+                    EC.presence_of_element_located((By.XPATH, Configuracion.descuento_venta)))
+
+                if AtributoDescuento.is_displayed():
+                    Log().info("El descuento está en pantalla")
+
+            except Exception as e:
+                # Configura el atributo
+                try:
+                    AgregaAtributo = wait.until(
+                        EC.presence_of_element_located((By.XPATH, Configuracion.btn_atributos)))
+                    AgregaAtributo.click()
+                    time.sleep(1)
+
+                    AtributoDescuentoVenta = wait.until(
+                        EC.presence_of_element_located((By.XPATH, Configuracion.atributo_descuento)))
+                    AtributoDescuentoVenta.click()
+                    time.sleep(1)
+
+                    CerrarAtributo = wait.until(
+                        EC.presence_of_element_located((By.XPATH, Configuracion.btn_aceptar2)))
+                    CerrarAtributo.click()
+                    time.sleep(1)
+
+                except Exception as e:
+                    Log().info(f"No se logro agregar el atributo descuento, error {e}")
+                    pass
+
+        except Exception as e:
+            Log().error(f"No se encontró el atributo descuento")
+            time.sleep(2)
+            return False
+
     # -----------------------------------------REPORTES DZ-----------------------------------------------------
 
     def ingresoreportes_dz(self):

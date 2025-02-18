@@ -355,7 +355,7 @@ class Configuracion:
     busqueda_odocemitido2 = (f"(//span[text()= '{i_observaciones2}']"
                              f"//ancestor::div[contains(@class, 'tabulator-cell')])[1]")
 
-    # Calculo del documento
+    # Cálculo del documento
     btn_info_art = "//div[contains(@id, 'details_element')]"
 
     # Doc emitidos
@@ -512,8 +512,10 @@ class Configuracion:
     results = "//onresults"
     finalizado = "//onresults[text()='Finalizado ']"
     ultima_v4 = "//option[@value='5.0.0.50']/preceding-sibling::option[1]"
-    ultima_v5 ="//option[@value='6.0.0.0']/preceding-sibling::option[1]"
+    ultima_v5 = "//option[@value='6.0.0.0']/preceding-sibling::option[1]"
     ultima_v6 = "//option[@value='999.0.0.46']/preceding-sibling::option[1]"
+    btn_actualizareporte = ("/html/body/div[3]/div[2]/ui-container/ui-window/div[10]/div[2]/ui-container/ui-row[1]/"
+                            "ui-toolband/div/span[1]/ui-toolbarbutton/div")
 
     # ***************************************** Variables VCR *******************************************************
 
@@ -584,3 +586,15 @@ class Configuracion:
 
     # **************************** Flujos ****************************************************
     checkbox_art_activo = "(//input[contains(@id, 'activo_checkbox')])[1]"
+
+    # ***************************** Procesos *************************************************
+    descripcion_proceso = "Prueba Automatizada"
+    des_proceso_modif = "Prueba Cambio Automatizado"
+
+    codigo_proce = "CódigoTest"
+    codigo_proceso = "//span[text()='CódigoTest']"
+    btn_programaciones = "//button[contains(@id, 'Programacionessch_tabitem')]"
+    programacion = "//span[text()='TE01']"
+    campo_tipo_accion = "//div[contains(@id, 'tipoaccion_select')]"
+    btn_nuevo_prog = "//div[contains(@id, 'add_programacionessch_element')]"
+    btn_elimina_programacion = "//div[contains(@id, 'remove_programacionessch_element')]"
